@@ -1,0 +1,110 @@
+\documentclass[
+  article,
+  a4paper,
+  12pt,
+  fleqn,
+  oneside,
+  chapter = TITLE,
+  section = TITLE,
+]{abntex2}
+
+\usepackage[
+  BibURLs = false,
+  ABNTNum = none,
+]{unoesc-article}
+
+\usepackage{caption}
+
+
+\addbibresource{unoesc-article.bib}
+
+\titulo{AgroBot: Uso de Chatbot no WhatsApp para Conectar Produtores e Compradores de Insumos Agrícolas}
+
+\autor{%
+  Pedro Augusto Larentis Maldaner%
+  \thanks{%
+    \affil{Acadêmico de Sistemas de Informação; UNOESC; Chapecó}%
+    \sep\email{pedro.augusto@unoesc.edu.br}%
+  }%
+  \and Pedro Henrique Tormem%
+  \thanks{%
+    \affil{Acadêmico de Sistemas de Informação; UNOESC; Chapecó}%
+    \sep\email{pedro.tormem@unoesc.edu.br}%
+  }%
+  \and William Breno Antunes de Lima de Oliveira%
+  \thanks{%
+    \affil{Acadêmico de Sistemas de Informação; UNOESC; Chapecó}%
+    \sep\email{william.o@unoesc.edu.br}%
+  }%
+  \and Prof. Jacson Luiz Matte% 
+  \thanks{%
+    \affil{Especialista em Desenvolvimento de Aplicações Web; UNOPAR; Chapecó}%
+    \sep\email{jacson.matte@unoesc.edu.br}%
+  }%
+}
+
+\data{}
+
+\makeindex
+\crefname{figure}{Figura}{Figuras}
+\crefname{table}{Quadro}{Quadros}
+
+\renewcommand{\thefootnote}{} 
+\makeatletter
+\let\@fnsymbol\@arabic
+\makeatother
+
+\begin{document}
+
+\pretextual
+
+\begin{paginadetitulo}
+
+
+\end{paginadetitulo}
+
+\textual
+
+
+\section{Introdução}\label{sec:intro}
+
+O setor agrícola enfrenta desafios constantes na aproximação entre produtores, fornecedores de insumos e compradores. Muitas vezes, a comunicação é fragmentada, feita por canais informais e sem organização centralizada, o que dificulta o acesso a sementes, insumos e até mesmo ao aluguel de terras.
+Diante da popularização das tecnologias de mensagens instantâneas, como o WhatsApp, surge a oportunidade de utilizar chatbots como ferramenta prática e acessível para facilitar essa interação.
+Este projeto propõe o desenvolvimento do AgroBot, um chatbot no WhatsApp que funcione como canal automatizado de comunicação entre agricultores, permitindo que produtores publiquem e acessem anúncios de insumos, sementes, maquinários e até áreas para arrendamento. O sistema oferecerá informações rápidas, organização das demandas e maior visibilidade às oportunidades de negociação, fortalecendo as trocas diretas entre agricultores. Além disso, contará com um algoritmo de recomendação inteligente, que sugere produtos e serviços de acordo com os interesses do usuário, seu histórico de interações e a sazonalidade das culturas.
+
+
+\section{Delimitação do Tema}\label{ssec:teor}
+
+O projeto está delimitado ao desenvolvimento de um chatbot para WhatsApp, que servirá como plataforma de intermediação entre agricultores. O foco é facilitar o contato direto entre produtores rurais, eliminando intermediários e permitindo que agricultores anunciem e encontrem produtos, serviços e equipamentos. O escopo contempla funcionalidades como:
+
+\begin{itemize}
+  \item •	Cadastro de agricultores via conversa automatizada;
+  \item •	Publicação e listagem de anúncios de insumos, sementes, áreas para arrendamento e maquinários;
+  \item Busca inteligente por categorias (sementes, fertilizantes, terras, maquinários etc.);
+  \item Sistema de recomendação inteligente, capaz de sugerir produtos e serviços com base nos interesses do usuário, seu histórico de buscas e a sazonalidade agrícola;
+  \item Canal de comunicação rápido para negociações;
+  \item Possibilidade futura de integração com sistemas de pagamento ou logística.
+\end{itemize}
+
+\section{Justificativa}
+
+O uso de aplicativos de mensagens já é consolidado no Brasil, sendo o WhatsApp a principal ferramenta de comunicação entre agricultores e comunidades rurais. Desenvolver um aplicativo próprio exigiria mais tempo e custos, além da necessidade de convencer usuários a instalarem algo novo.
+O chatbot, por outro lado, aproveita uma plataforma já difundida, reduzindo barreiras de uso e aumentando as chances de adoção. Essa solução permite democratizar o acesso à informação, reduzir intermediários e agilizar negociações agrícolas, fortalecendo o setor com uma tecnologia simples e de alto impacto.
+Além disso, a inclusão de anúncios de insumos, sementes, áreas para arrendamento e maquinários entre agricultores amplia ainda mais o impacto da solução, pois cria uma rede colaborativa de troca e negociação, que favorece especialmente os pequenos e médios produtores. Dessa forma, o AgroBot não apenas aproxima agricultores, mas também promove economia solidária e acesso a recursos que muitas vezes ficam concentrados em grandes mercados.
+
+
+
+\section{Objetivo Geral}
+
+Desenvolver um chatbot no WhatsApp para aproximar produtores e compradores agrícolas, facilitando a negociação de insumos, sementes e áreas para arrendamento, de forma prática, acessível e organizada.
+Objetivos Específicos:
+
+\begin{itemize}
+  \item Implementar um sistema de cadastro automatizado de produtores e compradores;
+  \item Disponibilizar listagem e divulgação de produtos, serviços, áreas agrícolas e maquinários;
+  \item Criar uma busca inteligente por categorias;
+  \item Proporcionar um canal de comunicação ágil e direto entre agricultores;
+  \item Desenvolver um sistema de recomendação personalizada, que sugira produtos e serviços de acordo com o perfil do usuário, seu histórico de interações e a sazonalidade agrícola.
+\end{itemize}
+
+\end{document}
