@@ -1,0 +1,172 @@
+\documentclass[
+  article,
+  a4paper,
+  12pt,
+  fleqn,
+  oneside,
+  chapter = TITLE,
+  section = TITLE,
+]{abntex2}
+
+\usepackage[
+  BibURLs = false,
+  ABNTNum = none,
+]{unoesc-article}
+
+\usepackage{caption}
+
+\addbibresource{referencias.bib}
+
+\titulo{AgroBot: Uso de Chatbot no WhatsApp para Conectar Produtores e Compradores de Insumos Agrícolas}
+
+\autor{%
+  Pedro Augusto Larentis Maldaner%
+  \thanks{%
+    \affil{Acadêmico de Sistemas de Informação; UNOESC; Chapecó}%
+    \sep\email{pedro.augusto@unoesc.edu.br}%
+  }%
+  \and Pedro Henrique Tormem%
+  \thanks{%
+    \affil{Acadêmico de Sistemas de Informação; UNOESC; Chapecó}%
+    \sep\email{pedro.tormem@unoesc.edu.br}%
+  }%
+  \and William Breno Antunes de Lima de Oliveira%
+  \thanks{%
+    \affil{Acadêmico de Sistemas de Informação; UNOESC; Chapecó}%
+    \sep\email{william.o@unoesc.edu.br}%
+  }%  
+  \and Prof. Jacson Luiz Matte% 
+  \thanks{%
+    \affil{Especialista em Desenvolvimento de Aplicações Web; UNOPAR; Chapecó}%
+    \sep\email{jacson.matte@unoesc.edu.br}%
+  }%
+}
+
+\data{}
+
+\makeindex
+\crefname{figure}{Figura}{Figuras}
+\crefname{table}{Quadro}{Quadros}
+
+% Remove símbolos (*, †, ‡, §) dos autores
+\renewcommand{\thefootnote}{} 
+\makeatletter
+\let\@fnsymbol\@arabic
+\makeatother
+
+\begin{document}
+
+\pretextual
+
+% ========== CAPA ==========
+\begin{paginadetitulo}
+\end{paginadetitulo}
+
+% ======= FORÇA O TEXTO A COMEÇAR NA SEGUNDA PÁGINA =======
+\newpage
+\textual
+
+% ========== CONTEÚDO ==========
+\section{Introdução}\label{sec:intro}
+
+O setor agrícola enfrenta desafios constantes na aproximação entre produtores, fornecedores de insumos e compradores. Muitas vezes, a comunicação é fragmentada, feita por canais informais e sem organização centralizada, o que dificulta o acesso a sementes, insumos e até mesmo ao aluguel de terras.
+Diante da popularização das tecnologias de mensagens instantâneas, como o WhatsApp, surge a oportunidade de utilizar chatbots como ferramenta prática e acessível para facilitar essa interação.
+Este projeto propõe o desenvolvimento do AgroBot, um chatbot no WhatsApp que funcione como canal automatizado de comunicação entre agricultores, permitindo que produtores publiquem e acessem anúncios de insumos, sementes, maquinários e até áreas para arrendamento. O sistema oferecerá informações rápidas, organização das demandas e maior visibilidade às oportunidades de negociação, fortalecendo as trocas diretas entre agricultores. Além disso, no futuro poderá contar com um algoritmo de recomendação inteligente, que sugere produtos e serviços de acordo com os interesses do usuário, seu histórico de interações e a sazonalidade das culturas.
+
+
+\section{Delimitação do Tema}\label{ssec:teor}
+
+O projeto está delimitado ao desenvolvimento de um chatbot para WhatsApp, que servirá como plataforma de intermediação entre agricultores. O foco é facilitar o contato direto entre produtores rurais, eliminando intermediários e permitindo que agricultores anunciem e encontrem produtos, serviços e equipamentos. 
+
+\section{Justificativa}
+
+O uso de aplicativos de mensagens já é consolidado no Brasil, sendo o WhatsApp a principal ferramenta de comunicação entre agricultores e comunidades rurais. Desenvolver um aplicativo próprio exigiria mais tempo e custos, além da necessidade de convencer usuários a instalarem algo novo.
+O chatbot, por outro lado, aproveita uma plataforma já difundida, reduzindo barreiras de uso e aumentando as chances de adoção. Essa solução permite democratizar o acesso à informação, reduzir intermediários e agilizar negociações agrícolas, fortalecendo o setor com uma tecnologia simples e de alto impacto.
+Além disso, a inclusão de anúncios de insumos, sementes, áreas para arrendamento e maquinários entre agricultores amplia ainda mais o impacto da solução, pois cria uma rede colaborativa de troca e negociação, que favorece especialmente os pequenos e médios produtores. Dessa forma, o AgroBot não apenas aproxima agricultores, mas também promove economia solidária e acesso a recursos que muitas vezes ficam concentrados em grandes mercados.
+
+
+
+\section{Objetivo Geral}
+
+Desenvolver um chatbot no WhatsApp para aproximar produtores e compradores agrícolas, facilitando a negociação de insumos, sementes e áreas para arrendamento, de forma prática, acessível e organizada.
+
+Objetivos Específicos:
+
+\begin{itemize}
+  \item Implementar um sistema de cadastro automatizado de produtores e compradores;
+  \item Disponibilizar listagem e divulgação de produtos, serviços, áreas agrícolas e maquinários;
+  \item Criar uma busca inteligente por categorias;
+  \item Proporcionar um canal de comunicação ágil e direto entre agricultores;
+  \item Desenvolver um sistema de recomendação personalizada, que sugira produtos e serviços de acordo com o perfil do usuário, seu histórico de interações e a sazonalidade agrícola.
+\end{itemize}
+
+\section{Trabalhos Relacionados}
+
+Durante o desenvolvimento do projeto AgroBot, foram analisados sistemas e soluções tecnológicas voltadas ao setor agropecuário que utilizam chatbots, plataformas digitais e automações para comunicação e negociação entre produtores. O objetivo desta análise é identificar boas práticas, limitações e oportunidades de diferenciação para o projeto.
+
+\subsection{Nestlé — Theo}
+
+A Nestlé desenvolveu o Theo, um assistente virtual criado para auxiliar produtores de cacau. O chatbot fornece informações técnicas sobre boas práticas agrícolas e manejo sustentável via WhatsApp, utilizando linguagem simples e adaptada à realidade do campo. De acordo com a Nestlé \cite{nestle_theo_mpm, nestle_theo_folha}, o objetivo é oferecer suporte técnico automatizado e acessível aos agricultores.
+
+\textbf{Pontos fortes:} fornece informações técnicas padronizadas e linguagem próxima ao agricultor.  
+\textbf{Limitações:} restrito a uma única cultura (cacau) e não atua como plataforma de anúncios ou negociação.  
+\textbf{Diferencial do AgroBot:} o foco está na intermediação comercial entre produtores, com recomendações baseadas em histórico e sazonalidade das culturas.
+
+\subsection{Agrofy}
+
+O \textit{Agrofy} é uma plataforma online voltada à compra e venda de produtos e serviços agrícolas, permitindo anúncios de tratores, sementes, insumos e maquinários.  
+Segundo informações disponíveis no site oficial \cite{agrofy}, a plataforma funciona como um marketplace do agronegócio com grande variedade de produtos e interface moderna.
+
+\textbf{Pontos fortes:} ampla base de produtos e interface profissional.  
+\textbf{Limitações:} requer cadastro e uso via navegador, o que pode afastar pequenos produtores que utilizam apenas o WhatsApp.  
+\textbf{Diferencial do AgroBot:} acesso direto via WhatsApp, sem necessidade de instalação adicional e com interface conversacional simplificada.
+
+\subsection{Agritek Bot}
+
+O Agritek Bot, desenvolvido pela empresa brasileira Agritek \cite{agritek}, é um chatbot que automatiza o atendimento de produtores via WhatsApp. Ele permite o envio de mensagens automáticas, catálogos de produtos e suporte técnico, otimizando a comunicação entre fornecedores e agricultores.
+
+\textbf{Pontos fortes:} automatiza o atendimento via WhatsApp e facilita a comunicação entre empresas e produtores.  
+\textbf{Limitações:} não realiza intermediação entre produtores e compradores; seu foco é o atendimento comercial.  
+\textbf{Diferencial do AgroBot:} possibilita a criação de um espaço de anúncios e trocas diretas entre agricultores, favorecendo negociações entre pequenos produtores.
+
+\subsection{WhatsWave Agro}
+
+O WhatsWave Agro é uma plataforma que permite criar agentes de inteligência artificial e automações para o agronegócio dentro do WhatsApp \cite{whatswave}. É utilizada por fazendas e empresas rurais para enviar alertas, gerenciar tarefas e automatizar comunicações internas.
+
+\textbf{Pontos fortes:} bom uso de automações e comunicação via WhatsApp.  
+\textbf{Limitações:} não atua como marketplace nem promove a intermediação comercial entre produtores.  
+\textbf{Diferencial do AgroBot:} combina o uso de chatbot e marketplace em um ambiente conversacional acessível e de baixo custo.
+
+\subsection{Análise Comparativa e Diferencial do AgroBot}
+
+A análise dos sistemas estudados mostra que, embora existam diversas soluções digitais no setor agrícola, poucas exploram o potencial dos \textit{chatbots} para negociações diretas entre produtores. O \textit{AgroBot} se diferencia por unir a praticidade do atendimento automatizado via WhatsApp com funcionalidades de um marketplace, promovendo um espaço acessível, intuitivo e inclusivo para anúncios e trocas agrícolas.
+
+
+\section{Requisitos Funcionais}
+\begin{itemize}
+
+  \item \textbf{RF01 – Cadastro via conversa:} o bot coleta nome, município/estado e cultura principal durante uma conversa guiada.
+  \item \textbf{RF02 – Publicar anúncio:} fluxo guiado onde o bot solicita categoria, descrição e local do anúncio.
+  \item \textbf{RF03 – Listar anúncios:} permite ao usuário buscar por termos ou categorias e visualizar resultados paginados.
+  \item \textbf{RF04 – Filtro simples por categoria e local:} busca refinada por tipo e região.
+  \item \textbf{RF05 – Contato entre comprador e vendedor:} exibe o número do anunciante ou inicia mensagem automática.
+  \item \textbf{RF06 – Gerenciar anúncios:} comandos para editar, renovar ou excluir.
+  \item \textbf{RF07 – Notificações proativas:} envio de mensagens com novas ofertas regionais.
+  \item \textbf{RF08 – Relatórios básicos (admin):} painel de estatísticas e categorias mais populares.
+\end{itemize}
+
+
+\section{Requisitos Não Funcionais}
+\begin{itemize}
+  \item \textbf{RNF01 – Interface simples e intuitiva:} linguagem acessível e menus guiados, adequados a produtores com pouca experiência tecnológica.
+  \item \textbf{RNF02 – Compatibilidade com dispositivos móveis:} integração via WhatsApp Business API, sem necessidade de instalar outros aplicativos.
+  \item \textbf{RNF03 – Tempo de resposta e desempenho:} respostas automáticas com média inferior a 3 segundos.
+  \item \textbf{RNF04 – Segurança e privacidade:} proteção dos dados pessoais e uso ético das informações.
+  \item \textbf{RNF05 – Disponibilidade e manutenção:} arquitetura leve e de fácil manutenção.
+\end{itemize}
+
+\postextual
+\printbibliography[title={Referências}]
+
+
+\end{document}

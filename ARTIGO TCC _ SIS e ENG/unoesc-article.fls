@@ -1,6 +1,6 @@
-PWD c:\Users\palma\Documents\Arquivos faculdade\2_semestre\38389 - Prática Profissional e Inserção Comunitária I\01 - Primeira entrega parcial\ARTIGO TCC _ SIS e ENG
+PWD c:\Users\palma\Documents\Arquivos faculdade\2_semestre\38389 - Prática Profissional e Inserção Comunitária I\02 - Segunda entrega parcial\ARTIGO TCC _ SIS e ENG
 INPUT C:\Users\palma\AppData\Local\MiKTeX\miktex\data\le\pdftex\pdflatex.fmt
-INPUT c:\Users\palma\Documents\Arquivos faculdade\2_semestre\38389 - Prática Profissional e Inserção Comunitária I\01 - Primeira entrega parcial\ARTIGO TCC _ SIS e ENG\unoesc-article.tex
+INPUT c:\Users\palma\Documents\Arquivos faculdade\2_semestre\38389 - Prática Profissional e Inserção Comunitária I\02 - Segunda entrega parcial\ARTIGO TCC _ SIS e ENG\unoesc-article.tex
 OUTPUT unoesc-article.log
 INPUT C:\Users\palma\AppData\Local\Programs\MiKTeX\tex\latex\abntex2\abntex2.cls
 INPUT C:\Users\palma\AppData\Local\Programs\MiKTeX\tex\latex\abntex2\abntex2.cls
@@ -269,14 +269,6 @@ INPUT C:\Users\palma\AppData\Local\Programs\MiKTeX\tex\latex\biblatex\blx-case-e
 INPUT C:\Users\palma\AppData\Local\Programs\MiKTeX\tex\latex\biblatex\blx-case-expl3.sty
 INPUT C:\Users\palma\AppData\Local\Programs\MiKTeX\tex\latex\cleveref\cleveref.sty
 INPUT C:\Users\palma\AppData\Local\Programs\MiKTeX\tex\latex\cleveref\cleveref.sty
-INPUT C:\Users\palma\AppData\Local\Programs\MiKTeX\fonts\tfm\jknappen\ec\ecrm1000.tfm
-INPUT .\Logos\orcid-id.png
-INPUT .\Logos\orcid-id.png
-INPUT .\Logos\orcid-id.png
-OUTPUT unoesc-article.pdf
-INPUT .\Logos\orcid-id.png
-INPUT .\Logos\orcid-id.png
-INPUT .\Logos\orcid-id.png
 INPUT C:\Users\palma\AppData\Local\Programs\MiKTeX\tex\latex\biblatex-abnt\lbx\english-abnt.lbx
 INPUT C:\Users\palma\AppData\Local\Programs\MiKTeX\tex\latex\biblatex-abnt\lbx\english-abnt.lbx
 INPUT C:\Users\palma\AppData\Local\Programs\MiKTeX\tex\latex\lipsum\lipsum.sty
@@ -329,6 +321,7 @@ INPUT C:\Users\palma\AppData\Local\Programs\MiKTeX\tex\latex\newtx\lmsntxsy.fd
 INPUT C:\Users\palma\AppData\Local\Programs\MiKTeX\tex\latex\newtx\lmxntxexx.fd
 INPUT C:\Users\palma\AppData\Local\Programs\MiKTeX\tex\latex\newtx\lmxntxexx.fd
 INPUT C:\Users\palma\AppData\Local\Programs\MiKTeX\tex\latex\newtx\lmxntxexx.fd
+OUTPUT unoesc-article.pdf
 INPUT C:\Users\palma\AppData\Local\Programs\MiKTeX\tex\context\base\mkii\supp-pdf.mkii
 INPUT C:\Users\palma\AppData\Local\Programs\MiKTeX\tex\context\base\mkii\supp-pdf.mkii
 INPUT C:\Users\palma\AppData\Local\Programs\MiKTeX\tex\context\base\mkii\supp-pdf.mkii
@@ -454,21 +447,21 @@ INPUT C:\Users\palma\AppData\Local\Programs\MiKTeX\tex\latex\fontawesome\ufontaw
 INPUT C:\Users\palma\AppData\Local\Programs\MiKTeX\tex\latex\fontawesome\ufontawesometwo.fd
 INPUT C:\Users\palma\AppData\Local\Programs\MiKTeX\tex\latex\fontawesome\ufontawesometwo.fd
 INPUT C:\Users\palma\AppData\Local\Programs\MiKTeX\fonts\tfm\public\fontawesome\FontAwesome--fontawesometwo.tfm
+INPUT C:\Users\palma\AppData\Local\MiKTeX\fonts\map\pdftex\pdftex.map
+INPUT C:\Users\palma\AppData\Local\Programs\MiKTeX\fonts\enc\dvips\newtx\ntx-ec-tlf.enc
+INPUT C:\Users\palma\AppData\Local\Programs\MiKTeX\fonts\enc\dvips\fontawesome\fontawesomeone.enc
+INPUT C:\Users\palma\AppData\Local\Programs\MiKTeX\fonts\enc\dvips\fontawesome\fontawesometwo.enc
 INPUT C:\Users\palma\AppData\Local\Programs\MiKTeX\fonts\tfm\public\newtx\ntx-Bold-tlf-t1.tfm
 INPUT C:\Users\palma\AppData\Local\Programs\MiKTeX\tex\latex\newtx\ts1ntxtlf.fd
 INPUT C:\Users\palma\AppData\Local\Programs\MiKTeX\tex\latex\newtx\ts1ntxtlf.fd
 INPUT C:\Users\palma\AppData\Local\Programs\MiKTeX\tex\latex\newtx\ts1ntxtlf.fd
 INPUT C:\Users\palma\AppData\Local\Programs\MiKTeX\fonts\tfm\public\tex-gyre\ts1-qtmr.tfm
-INPUT C:\Users\palma\AppData\Local\MiKTeX\fonts\map\pdftex\pdftex.map
-INPUT C:\Users\palma\AppData\Local\Programs\MiKTeX\fonts\enc\dvips\newtx\ntx-ec-tlf.enc
-INPUT C:\Users\palma\AppData\Local\Programs\MiKTeX\fonts\enc\dvips\tex-gyre\q-ts1.enc
-INPUT C:\Users\palma\AppData\Local\Programs\MiKTeX\fonts\enc\dvips\fontawesome\fontawesomeone.enc
-INPUT C:\Users\palma\AppData\Local\Programs\MiKTeX\fonts\enc\dvips\fontawesome\fontawesometwo.enc
 INPUT C:\Users\palma\AppData\Local\Programs\MiKTeX\tex\latex\lm\t1lmss.fd
 INPUT C:\Users\palma\AppData\Local\Programs\MiKTeX\tex\latex\lm\t1lmss.fd
 INPUT C:\Users\palma\AppData\Local\Programs\MiKTeX\tex\latex\lm\t1lmss.fd
 INPUT C:\Users\palma\AppData\Local\Programs\MiKTeX\fonts\tfm\public\lm\ec-lmss10.tfm
 INPUT C:\Users\palma\AppData\Local\Programs\MiKTeX\fonts\enc\dvips\lm\lm-ec.enc
+INPUT C:\Users\palma\AppData\Local\Programs\MiKTeX\fonts\enc\dvips\tex-gyre\q-ts1.enc
 INPUT unoesc-article.aux
 INPUT unoesc-article.run.xml
 OUTPUT unoesc-article.run.xml

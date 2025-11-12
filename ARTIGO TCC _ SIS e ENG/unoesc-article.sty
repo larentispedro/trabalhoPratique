@@ -155,9 +155,11 @@
     #3%
   \fi%
 }
-\newbox{\orcidiconbox}
-\sbox{\orcidiconbox}{\footnotesize\includegraphics[height = 1.7ex]{./Logos/orcid-id}}
-\newcommand*{\orcid}[1]{\href{https://orcid.org/#1}{\usebox{\orcidiconbox}~https://orcid.org/#1}}
+% ORCID icon removed to avoid requiring external Logos/orcid-id file.
+% The command below links to the ORCID profile by identifier but does not
+% try to include an image. If you later add a logo image, restore the
+% previous \sbox+\usebox approach or wrap it with \IfFileExists checks.
+\newcommand*{\orcid}[1]{\href{https://orcid.org/#1}{https://orcid.org/#1}}
 \newcommand*{\email}[1]{\href{mailto:#1}{\faEnvelopeO~#1}}
 \newcommand*{\affil}[1]{\faInstitution~#1}
 \newcommand*{\linkicon}{{\footnotesize\faExternalLink}}

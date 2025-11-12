@@ -2462,8 +2462,14 @@
   <!-- CITATION DATA -->
   <!-- SECTION 0 -->
   <bcf:bibdata section="0">
+    <bcf:datasource type="file" datatype="bibtex" glob="false">referencias.bib</bcf:datasource>
   </bcf:bibdata>
   <bcf:section number="0">
+    <bcf:citekey order="1" intorder="1">nestle_theo_mpm</bcf:citekey>
+    <bcf:citekey order="1" intorder="2">nestle_theo_folha</bcf:citekey>
+    <bcf:citekey order="2" intorder="1">agrofy</bcf:citekey>
+    <bcf:citekey order="3" intorder="1">agritek</bcf:citekey>
+    <bcf:citekey order="4" intorder="1">whatswave</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="nty">
@@ -2507,4 +2513,14 @@
     </bcf:sort>
   </bcf:sortingtemplate>
   <!-- DATALISTS -->
+  <bcf:datalist section="0"
+                name="nty/global//global/global/global"
+                type="entry"
+                sortingtemplatename="nty"
+                sortingnamekeytemplatename="global"
+                labelprefix=""
+                uniquenametemplatename="global"
+                labelalphanametemplatename="global"
+                namehashtemplatename="global">
+  </bcf:datalist>
 </bcf:controlfile>

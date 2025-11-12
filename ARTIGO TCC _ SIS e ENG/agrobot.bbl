@@ -1,0 +1,184 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.3 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{nty/global//global/global/global}
+    \entry{agritek}{online}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=e3e3ea14777e8b4d10e86d4a7c0a48b0}{%
+           family={Agritek},
+           familyi={A\bibinitperiod}}}%
+      }
+      \strng{namehash}{e3e3ea14777e8b4d10e86d4a7c0a48b0}
+      \strng{fullhash}{e3e3ea14777e8b4d10e86d4a7c0a48b0}
+      \strng{fullhashraw}{e3e3ea14777e8b4d10e86d4a7c0a48b0}
+      \strng{bibnamehash}{e3e3ea14777e8b4d10e86d4a7c0a48b0}
+      \strng{authorbibnamehash}{e3e3ea14777e8b4d10e86d4a7c0a48b0}
+      \strng{authornamehash}{e3e3ea14777e8b4d10e86d4a7c0a48b0}
+      \strng{authorfullhash}{e3e3ea14777e8b4d10e86d4a7c0a48b0}
+      \strng{authorfullhashraw}{e3e3ea14777e8b4d10e86d4a7c0a48b0}
+      \field{sortinit}{A}
+      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Acesso em: 2 nov. 2025.}
+      \field{title}{Sobre a Agritek — Soluções digitais para o agronegócio}
+      \field{year}{2025}
+      \verb{urlraw}
+      \verb https://agritek.com.br/sobre-a-agritek
+      \endverb
+      \verb{url}
+      \verb https://agritek.com.br/sobre-a-agritek
+      \endverb
+    \endentry
+    \entry{whatswave}{online}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=594ef087ea0366bffa4fcbc1f4f0ef0f}{%
+           family={Agro},
+           familyi={A\bibinitperiod},
+           given={WhatsWave},
+           giveni={W\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{594ef087ea0366bffa4fcbc1f4f0ef0f}
+      \strng{fullhash}{594ef087ea0366bffa4fcbc1f4f0ef0f}
+      \strng{fullhashraw}{594ef087ea0366bffa4fcbc1f4f0ef0f}
+      \strng{bibnamehash}{594ef087ea0366bffa4fcbc1f4f0ef0f}
+      \strng{authorbibnamehash}{594ef087ea0366bffa4fcbc1f4f0ef0f}
+      \strng{authornamehash}{594ef087ea0366bffa4fcbc1f4f0ef0f}
+      \strng{authorfullhash}{594ef087ea0366bffa4fcbc1f4f0ef0f}
+      \strng{authorfullhashraw}{594ef087ea0366bffa4fcbc1f4f0ef0f}
+      \field{sortinit}{A}
+      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Acesso em: 2 nov. 2025.}
+      \field{title}{Automação de atendimento e gestão agrícola via WhatsApp}
+      \field{year}{2025}
+      \verb{urlraw}
+      \verb https://whatswave.com/agro
+      \endverb
+      \verb{url}
+      \verb https://whatswave.com/agro
+      \endverb
+    \endentry
+    \entry{agrofy}{online}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=2c3d71f7bc819c277d21a3b0aebec6aa}{%
+           family={Agrofy},
+           familyi={A\bibinitperiod}}}%
+      }
+      \strng{namehash}{2c3d71f7bc819c277d21a3b0aebec6aa}
+      \strng{fullhash}{2c3d71f7bc819c277d21a3b0aebec6aa}
+      \strng{fullhashraw}{2c3d71f7bc819c277d21a3b0aebec6aa}
+      \strng{bibnamehash}{2c3d71f7bc819c277d21a3b0aebec6aa}
+      \strng{authorbibnamehash}{2c3d71f7bc819c277d21a3b0aebec6aa}
+      \strng{authornamehash}{2c3d71f7bc819c277d21a3b0aebec6aa}
+      \strng{authorfullhash}{2c3d71f7bc819c277d21a3b0aebec6aa}
+      \strng{authorfullhashraw}{2c3d71f7bc819c277d21a3b0aebec6aa}
+      \field{sortinit}{A}
+      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Acesso em: 2 nov. 2025.}
+      \field{title}{Marketplace do agronegócio — Agrofy Brasil}
+      \field{year}{2025}
+      \verb{urlraw}
+      \verb https://www.agrofy.com.br
+      \endverb
+      \verb{url}
+      \verb https://www.agrofy.com.br
+      \endverb
+    \endentry
+    \entry{nestle_theo_mpm}{online}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=c18b95e8b06fe454ddc790a86702c3dc}{%
+           family={Mundo},
+           familyi={M\bibinitperiod},
+           given={Marcas\bibnamedelima Pelo},
+           giveni={M\bibinitperiod\bibinitdelim P\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{c18b95e8b06fe454ddc790a86702c3dc}
+      \strng{fullhash}{c18b95e8b06fe454ddc790a86702c3dc}
+      \strng{fullhashraw}{c18b95e8b06fe454ddc790a86702c3dc}
+      \strng{bibnamehash}{c18b95e8b06fe454ddc790a86702c3dc}
+      \strng{authorbibnamehash}{c18b95e8b06fe454ddc790a86702c3dc}
+      \strng{authornamehash}{c18b95e8b06fe454ddc790a86702c3dc}
+      \strng{authorfullhash}{c18b95e8b06fe454ddc790a86702c3dc}
+      \strng{authorfullhashraw}{c18b95e8b06fe454ddc790a86702c3dc}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Acesso em: 2 nov. 2025.}
+      \field{title}{Nestlé apresenta o Theo, assistente virtual da marca para ajudar agricultores nas fazendas de cacau}
+      \field{year}{2023}
+      \verb{urlraw}
+      \verb https://marcaspelomundo.com.br/anunciantes/nestle-apresenta-o-theo-assistente-virtual-da-marca-para-ajudar-agricultores-nas-fazendas-de-cacau/
+      \endverb
+      \verb{url}
+      \verb https://marcaspelomundo.com.br/anunciantes/nestle-apresenta-o-theo-assistente-virtual-da-marca-para-ajudar-agricultores-nas-fazendas-de-cacau/
+      \endverb
+    \endentry
+    \entry{nestle_theo_folha}{online}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=44e0a7de16af12bd89114528a74dfe5b}{%
+           family={Vitória},
+           familyi={V\bibinitperiod},
+           given={Folha},
+           giveni={F\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{44e0a7de16af12bd89114528a74dfe5b}
+      \strng{fullhash}{44e0a7de16af12bd89114528a74dfe5b}
+      \strng{fullhashraw}{44e0a7de16af12bd89114528a74dfe5b}
+      \strng{bibnamehash}{44e0a7de16af12bd89114528a74dfe5b}
+      \strng{authorbibnamehash}{44e0a7de16af12bd89114528a74dfe5b}
+      \strng{authornamehash}{44e0a7de16af12bd89114528a74dfe5b}
+      \strng{authorfullhash}{44e0a7de16af12bd89114528a74dfe5b}
+      \strng{authorfullhashraw}{44e0a7de16af12bd89114528a74dfe5b}
+      \field{sortinit}{V}
+      \field{sortinithash}{afb52128e5b4dc4b843768c0113d673b}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Acesso em: 2 nov. 2025.}
+      \field{title}{Theo: nova tecnologia da Nestlé dará suporte a produtores de cacau}
+      \field{year}{2023}
+      \verb{urlraw}
+      \verb https://www.folhavitoria.com.br/folha-business/theo-nova-tecnologia-da-nestle-dara-suporte-a-produtores-de-cacau/
+      \endverb
+      \verb{url}
+      \verb https://www.folhavitoria.com.br/folha-business/theo-nova-tecnologia-da-nestle-dara-suporte-a-produtores-de-cacau/
+      \endverb
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+

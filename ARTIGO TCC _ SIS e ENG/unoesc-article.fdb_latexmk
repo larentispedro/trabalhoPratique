@@ -1,25 +1,24 @@
 # Fdb version 4
-["biber unoesc-article"] 1758927359.49461 "unoesc-article.bcf" "unoesc-article.bbl" "unoesc-article" 1758928207.68086 0
-  "unoesc-article.bcf" 1758928207 113739 37ca2587dca59d623514a6ba15b0ac62 "pdflatex"
+["biber unoesc-article"] 0 "unoesc-article.bcf" "unoesc-article.bbl" "unoesc-article" 1762912285.07699 -1
+  "unoesc-article.bcf" 1762912284 113640 8e87bb6194f9eb3eb0fa08f3e3750edb "pdflatex"
   (generated)
   "unoesc-article.bbl"
   "unoesc-article.blg"
   (rewritten before read)
-["makeindex unoesc-article.idx"] 1758928009.96619 "unoesc-article.idx" "unoesc-article.ind" "unoesc-article" 1758928207.68046 0
-  "unoesc-article.idx" 1758928206 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
+["makeindex unoesc-article.idx"] 1762912135.28748 "unoesc-article.idx" "unoesc-article.ind" "unoesc-article" 1762912285.07658 0
+  "unoesc-article.idx" 1762912283 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
   (generated)
   "unoesc-article.ilg"
   "unoesc-article.ind"
   (rewritten before read)
-["pdflatex"] 1758928205.41459 "c:/Users/palma/Documents/Arquivos faculdade/2_semestre/38389 - Prática Profissional e Inserção Comunitária I/01 - Primeira entrega parcial/ARTIGO TCC _ SIS e ENG/unoesc-article.tex" "unoesc-article.pdf" "unoesc-article" 1758928207.68139 0
-  "C:/Users/palma/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1758623446 161945 20771634afb89ae646f1e2e1c712a483 ""
+["pdflatex"] 1762912282.39395 "c:/Users/palma/Documents/Arquivos faculdade/2_semestre/38389 - Prática Profissional e Inserção Comunitária I/02 - Segunda entrega parcial/ARTIGO TCC _ SIS e ENG/unoesc-article.tex" "unoesc-article.pdf" "unoesc-article" 1762912285.07755 0
+  "C:/Users/palma/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1762448266 161945 20771634afb89ae646f1e2e1c712a483 ""
   "C:/Users/palma/AppData/Local/MiKTeX/miktex/data/le/pdftex/pdflatex.fmt" 1758839385 13286966 e3ba85a19a4b672fe5a84bdd4367b2fe ""
   "C:/Users/palma/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/fontawesome/fontawesomeone.enc" 1463869852 1687 f004baecce60175c6453d0e3f808cf20 ""
   "C:/Users/palma/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/fontawesome/fontawesometwo.enc" 1463869852 2679 32dd8ae231bf4a0752b98f62dc097183 ""
   "C:/Users/palma/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-ec.enc" 1256929440 2375 baa924870cfb487815765f9094cf3728 ""
   "C:/Users/palma/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/newtx/ntx-ec-tlf.enc" 1736607166 2914 fdbc4a54b9bc76f4551b5303f2737d33 ""
   "C:/Users/palma/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/tex-gyre/q-ts1.enc" 1525740614 3124 3813fd4c981d99822890a2861b0d274c ""
-  "C:/Users/palma/AppData/Local/Programs/MiKTeX/fonts/tfm/jknappen/ec/ecrm1000.tfm" 993062122 3148 7e594c8240c71e432203f65ab5f95a51 ""
   "C:/Users/palma/AppData/Local/Programs/MiKTeX/fonts/tfm/jknappen/ec/ecrm1200.tfm" 993062126 3152 4850ff0163852b7fab34bd55e1197f28 ""
   "C:/Users/palma/AppData/Local/Programs/MiKTeX/fonts/tfm/public/cm/cmr10.tfm" 1136765053 1296 45809c5a464d5f32c8f98ba97c1bb47f ""
   "C:/Users/palma/AppData/Local/Programs/MiKTeX/fonts/tfm/public/cm/cmr12.tfm" 1136765053 1288 655e228510b4c2a1abe905c368440826 ""
@@ -198,14 +197,13 @@
   "C:/Users/palma/AppData/Local/Programs/MiKTeX/tex/latex/xpatch/xpatch.sty" 1585221260 8510 7803f78066c4f9d008405191a4b43073 ""
   "C:/Users/palma/AppData/Local/Programs/MiKTeX/tex/latex/xstring/xstring.sty" 1693735632 123 a302f2c651a95033260db60e51527ae8 ""
   "C:/Users/palma/AppData/Local/Programs/MiKTeX/tex/latex/yafoot/fnpos.sty" 1536067238 3552 ffa6a47ef8edd0d65a39b6fbb4525e81 ""
-  "Logos/orcid-id.png" 1758035552 3410 3c59e28280885ff7107acd92d4d740c8 ""
-  "c:/Users/palma/Documents/Arquivos faculdade/2_semestre/38389 - Prática Profissional e Inserção Comunitária I/01 - Primeira entrega parcial/ARTIGO TCC _ SIS e ENG/unoesc-article.tex" 1758928204 5465 bec059c8eabb7ff69d8d6cefc9907d9d ""
-  "unoesc-article.aux" 1758928207 2323 4f66ddcea72d8f238d368913d952e0c2 "pdflatex"
-  "unoesc-article.bbl" 1758927363 486 76d65a242ec496c9b4361af646ff12cb "biber unoesc-article"
-  "unoesc-article.ind" 1758928010 0 d41d8cd98f00b204e9800998ecf8427e "makeindex unoesc-article.idx"
-  "unoesc-article.run.xml" 1758928207 2551 7bc9fa8a2771328643d917108e377f4a "pdflatex"
-  "unoesc-article.sty" 1758035552 11786 60721012bf77b2517c851f21effd7534 ""
-  "unoesc-article.tex" 1758928204 5465 bec059c8eabb7ff69d8d6cefc9907d9d ""
+  "c:/Users/palma/Documents/Arquivos faculdade/2_semestre/38389 - Prática Profissional e Inserção Comunitária I/02 - Segunda entrega parcial/ARTIGO TCC _ SIS e ENG/unoesc-article.tex" 1762912281 7343 6b35b388752e7d3eec1f0ed1cbdf0fc1 ""
+  "unoesc-article.aux" 1762912284 3272 c830ab3ac311ab0acc3b1994bfe6d906 "pdflatex"
+  "unoesc-article.bbl" 1762425885 0 d41d8cd98f00b204e9800998ecf8427e "biber unoesc-article"
+  "unoesc-article.ind" 1762912135 0 d41d8cd98f00b204e9800998ecf8427e "makeindex unoesc-article.idx"
+  "unoesc-article.run.xml" 1762912284 2466 00fdfe5b57fcf7d2e2038b9111797cbe "pdflatex"
+  "unoesc-article.sty" 1762910992 11940 98f73e9997d8ac5d0da4c9c47fc0c8df ""
+  "unoesc-article.tex" 1762912281 7343 6b35b388752e7d3eec1f0ed1cbdf0fc1 ""
   (generated)
   "unoesc-article.aux"
   "unoesc-article.bcf"
