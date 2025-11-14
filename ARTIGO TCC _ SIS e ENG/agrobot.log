@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.9.25)  12 NOV 2025 21:40
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.9.25)  13 NOV 2025 20:45
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1720,9 +1720,6 @@ Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
  [2{C:/Users/palma/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-ec.enc}{C:/Users/palma/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/tex-gyre/q-ts1.enc}]
-LaTeX Font Info:    Font shape `T1/ntxtlf/m/it' will be
-(Font)              scaled to size 12.0pt on input line 117.
-
 
 
 Class memoir Warning: The material used in the headers is too large
@@ -1736,6 +1733,9 @@ Overfull \vbox (0.27362pt too high) has occurred while \output is active []
  [3
 
 ]
+LaTeX Font Info:    Font shape `T1/ntxtlf/m/it' will be
+(Font)              scaled to size 12.0pt on input line 142.
+
 
 
 Overfull \vbox (0.27362pt too high) has occurred while \output is active []
@@ -1762,11 +1762,11 @@ Package logreq Info: Writing requests to 'agrobot.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 37045 strings out of 468130
- 637849 string characters out of 5430633
+ 37043 strings out of 468130
+ 637807 string characters out of 5430633
  1660404 words of memory out of 5000000
  65077 multiletter control sequences out of 15000+600000
- 685402 words of font info for 147 fonts, out of 8000000 for 9000
+ 685310 words of font info for 146 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  99i,13n,117p,1385b,4447s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
@@ -1782,7 +1782,7 @@ pdfTeX warning (dest): name{Hfootnote.2} has been referenced but does not exist,
 pdfTeX warning (dest): name{Hfootnote.1} has been referenced but does not exist, replaced by a fixed one
 
 <C:/Users/palma/AppData/Local/Programs/MiKTeX/fonts/type1/public/fontawesome/FontAwesome.pfb><C:/Users/palma/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmss10.pfb><C:/Users/palma/AppData/Local/Programs/MiKTeX/fonts/type1/public/tex-gyre/qtmr.pfb><C:/Users/palma/AppData/Local/Programs/MiKTeX/fonts/type1/public/newtx/ztmb.pfb><C:/Users/palma/AppData/Local/Programs/MiKTeX/fonts/type1/public/newtx/ztmr.pfb><C:/Users/palma/AppData/Local/Programs/MiKTeX/fonts/type1/public/newtx/ztmri.pfb>
-Output written on agrobot.pdf (5 pages, 167239 bytes).
+Output written on agrobot.pdf (5 pages, 165767 bytes).
 PDF statistics:
  157 PDF objects out of 1000 (max. 8388607)
  30 named destinations out of 1000 (max. 500000)
