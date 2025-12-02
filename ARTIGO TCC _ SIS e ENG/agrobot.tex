@@ -14,6 +14,8 @@
 ]{unoesc-article}
 
 \usepackage{caption}
+\usepackage{graphicx}
+\usepackage{float}
 
 \addbibresource{referencias.bib}
 
@@ -84,7 +86,11 @@ Este projeto propõe o desenvolvimento do AgroBot, um chatbot no WhatsApp que fu
 
 \section{Delimitação do Tema}\label{ssec:teor}
 
-O projeto está delimitado ao desenvolvimento de um chatbot para WhatsApp, que servirá como plataforma de intermediação entre agricultores. O foco é facilitar o contato direto entre produtores rurais, eliminando intermediários e permitindo que agricultores anunciem e encontrem produtos, serviços e equipamentos. 
+O trabalho está delimitado ao desenvolvimento de um chatbot agrícola que opera dentro do WhatsApp, permitindo que produtores publiquem anúncios e compradores visualizem essas ofertas de maneira simples e acessível. O sistema realiza apenas cadastro básico, exibição de anúncios e redirecionamento do comprador para o WhatsApp do vendedor, sem realizar negociações, pagamentos ou qualquer forma de intermediação automatizada.
+
+Para sua implementação, o projeto utiliza a WhatsApp Business API, que possibilita a automatização das conversas, integração com banco de dados e criação dos fluxos de interação. No entanto, os usuários finais não precisam da API e podem utilizar o chatbot em qualquer versão do WhatsApp, seja o aplicativo comum ou o WhatsApp Business.
+
+O escopo inclui menus específicos conforme o perfil do usuário (comprador, vendedor ou ambos) e funcionalidades simples de gestão de anúncios, mantendo a solução objetiva, organizada e com foco em facilitar a conexão direta entre agricultores.
 
 \section{Justificativa}
 
@@ -110,44 +116,88 @@ Objetivos Específicos:
 
 \section{Trabalhos Relacionados}
 
-Durante o desenvolvimento do projeto AgroBot, foram analisados sistemas e soluções tecnológicas voltadas ao setor agropecuário que utilizam chatbots, plataformas digitais e automações para comunicação e negociação entre produtores. O objetivo desta análise é identificar boas práticas, limitações e oportunidades de diferenciação para o projeto.
+Durante a pesquisa para o desenvolvimento do AgroBot, constatou-se que \textbf{não existem sistemas que combinem as mesmas características propostas pelo projeto}: um chatbot integrado ao WhatsApp cujo objetivo principal é facilitar a compra e venda direta entre agricultores por meio de anúncios regionais e contato imediato com o vendedor. Assim, os trabalhos relacionados apresentados nesta seção não representam concorrentes diretos, mas sim \textbf{sistemas parcialmente semelhantes}, escolhidos por possuírem elementos tecnológicos, setoriais ou funcionais que se aproximam ainda que de forma limitada da proposta do AgroBot.
+
+A análise crítica desses sistemas permite identificar boas práticas, limitações e, principalmente, lacunas de mercado que justificam a relevância e a originalidade da solução desenvolvida. As reflexões aqui apresentadas também se apoiam nos artefatos coletados com agricultores (entrevistas, mensagens e dados dos formulários), discutidos nas Seções 8 e 9.
 
 \subsection{Nestlé — Theo}
 
-A Nestlé desenvolveu o Theo, um assistente virtual criado para auxiliar produtores de cacau. O chatbot fornece informações técnicas sobre boas práticas agrícolas e manejo sustentável via WhatsApp, utilizando linguagem simples e adaptada à realidade do campo. De acordo com a Nestlé \cite{nestle_theo_mpm, nestle_theo_folha}, o objetivo é oferecer suporte técnico automatizado e acessível aos agricultores.
+O ``Theo'' é um chatbot criado pela Nestlé para auxiliar produtores de cacau, oferecendo conteúdos técnicos sobre manejo agrícola e boas práticas, diretamente no WhatsApp. Seu propósito é educacional, focado na transmissão de orientações precisas utilizando linguagem simples e acessível.
 
-\textbf{Pontos fortes:} fornece informações técnicas padronizadas e linguagem próxima ao agricultor.  
-\textbf{Limitações:} restrito a uma única cultura (cacau) e não atua como plataforma de anúncios ou negociação.  
-\textbf{Diferencial do AgroBot:} o foco está na intermediação comercial entre produtores, com recomendações baseadas em histórico e sazonalidade das culturas.
+\textbf{Pontos fortes:} demonstra a viabilidade do uso de chatbots na agricultura via WhatsApp; reforça que agricultores aceitam bem essa tecnologia; utiliza linguagem adequada ao público rural.
+
+\textbf{Limitações:} atende apenas uma cultura específica (cacau); não funciona como marketplace; não permite publicação de anúncios; não conecta compradores e vendedores; não promove interação comercial entre produtores.
+
+\textbf{Discussão crítica:} O Theo mostra que agricultores respondem positivamente a chatbots, mas também evidencia uma limitação clara do mercado: \textbf{não existem chatbots agrícolas voltados para compra e venda}. As entrevistas realizadas reforçam que os agricultores valorizam sistemas simples e rápidos, o que o Theo oferece, mas não resolve suas dores comerciais mais urgentes. Assim, o AgroBot se diferencia ao atuar exatamente onde o Theo não atua.
 
 \subsection{Agrofy}
 
-O Agrofy é uma plataforma online voltada à compra e venda de produtos e serviços agrícolas, permitindo anúncios de tratores, sementes, insumos e maquinários.  
-Segundo informações disponíveis no site oficial \cite{agrofy}, a plataforma funciona como um marketplace do agronegócio com grande variedade de produtos e interface moderna.
+O Agrofy é o maior marketplace agrícola da América Latina, oferecendo uma plataforma robusta de compra e venda de insumos, sementes, máquinas e serviços. Seu funcionamento é similar a grandes e-commerces tradicionais, com filtros, categorias, anúncios profissionais e alto volume de ofertas.
 
-\textbf{Pontos fortes:} ampla base de produtos e interface profissional.  
-\textbf{Limitações:} requer cadastro e uso via navegador, o que pode afastar pequenos produtores que utilizam apenas o WhatsApp.  
-\textbf{Diferencial do AgroBot:} acesso direto via WhatsApp, sem necessidade de instalação adicional e com interface conversacional simplificada.
+\textbf{Pontos fortes:} variedade de produtos; estrutura consolidada; presença de fornecedores grandes e pequenos; ampla rede de anunciantes.
 
-\subsection{Agritek Bot}
+\textbf{Limitações:} não utiliza WhatsApp como interface principal; depende de navegadores e cadastros complexos; exige maior familiaridade com tecnologia; não é regionalizado de forma simples; não funciona de forma conversacional.
 
-O Agritek Bot, desenvolvido pela empresa brasileira Agritek \cite{agritek}, é um chatbot que automatiza o atendimento de produtores via WhatsApp. Ele permite o envio de mensagens automáticas, catálogos de produtos e suporte técnico, otimizando a comunicação entre fornecedores e agricultores.
+\textbf{Discussão crítica:} Os formulários aplicados mostram que 100\% dos agricultores utilizam diariamente o WhatsApp, e a maioria afirma preferir soluções simples. A complexidade do Agrofy o torna pouco acessível para muitos pequenos produtores, que relataram dificuldades em navegar por plataformas grandes. O AgroBot, por ser totalmente conversacional, se diferencia ao reduzir barreiras de entrada tecnológicas e ao aproximar produtores locais entre si, algo que o Agrofy não consegue fazer com a mesma proximidade.
 
-\textbf{Pontos fortes:} automatiza o atendimento via WhatsApp e facilita a comunicação entre empresas e produtores.  
-\textbf{Limitações:} não realiza intermediação entre produtores e compradores; seu foco é o atendimento comercial.  
-\textbf{Diferencial do AgroBot:} possibilita a criação de um espaço de anúncios e trocas diretas entre agricultores, favorecendo negociações entre pequenos produtores.
+\subsection{Agritek}
+
+A Agritek desenvolve chatbots e automações voltadas para empresas do setor agrícola, especialmente revendas e consultorias. O seu bot é utilizado para atendimento automatizado, envio de catálogos e suporte técnico.
+
+\textbf{Pontos fortes:} uso real de automações via WhatsApp; atendimento instantâneo; comunicação eficiente entre empresa e produtor.
+
+\textbf{Limitações:} o foco é corporativo; não é um ambiente aberto; não permite que o agricultor publique seus próprios anúncios; não conecta produtor a produtor; não é um marketplace.
+
+\textbf{Discussão crítica:} Este é o trabalho relacionado mais próximo tecnicamente do AgroBot, pois também faz uso do WhatsApp Business API. No entanto, enquanto o Agritek Bot funciona como um canal comercial unidirecional — empresa $\rightarrow$ produtor — o AgroBot opera no modelo \textbf{produtor $\leftrightarrow$ produtor}, que foi exatamente a necessidade mais mencionada pelos entrevistados. Assim, mesmo que exista similaridade tecnológica, a finalidade é completamente diferente.
 
 \subsection{WhatsWave Agro}
 
-O WhatsWave Agro é uma plataforma que permite criar agentes de inteligência artificial e automações para o agronegócio dentro do WhatsApp \cite{whatswave}. É utilizada por fazendas e empresas rurais para enviar alertas, gerenciar tarefas e automatizar comunicações internas.
+O WhatsWave Agro é uma plataforma de automação para o setor rural, geralmente utilizada para envio de alertas, comunicação interna e integração com sensores, máquinas ou sistemas de gestão rural.
 
-\textbf{Pontos fortes:} bom uso de automações e comunicação via WhatsApp.  
-\textbf{Limitações:} não atua como marketplace nem promove a intermediação comercial entre produtores.  
-\textbf{Diferencial do AgroBot:} combina o uso de chatbot e marketplace em um ambiente conversacional acessível e de baixo custo.
+\textbf{Pontos fortes:} alta capacidade de automação; integração com infraestrutura agrícola; eficiência administrativa.
 
-\subsection{Análise Comparativa e Diferencial do AgroBot}
+\textbf{Limitações:} não atua como marketplace; não exibe anúncios; não facilita negociação; não atende pequenos produtores; não coleta dados simples de uso.
 
-A análise dos sistemas estudados mostra que, embora existam diversas soluções digitais no setor agrícola, poucas exploram o potencial dos \textit{chatbots} para negociações diretas entre produtores. O AgroBot se diferencia por unir a praticidade do atendimento automatizado via WhatsApp com funcionalidades de um marketplace, promovendo um espaço acessível, intuitivo e inclusivo para anúncios e trocas agrícolas.
+\textbf{Discussão crítica:} Esta solução confirma que o WhatsApp é um meio poderoso para o setor agrícola, mas também mostra que as ferramentas existentes se concentram em gestão e não em comércio. Os agricultores entrevistados demonstraram pouco interesse em automações avançadas, reforçando que o AgroBot atende a uma demanda distinta e mais emergente: \textbf{a facilidade em encontrar compradores e vendedores locais rapidamente}.
+
+\subsection{Análise Comparativa e Lacunas Identificadas}
+
+A comparação entre os sistemas estudados permite identificar um padrão claro: todos eles resolvem \textbf{partes} do problema agrícola, mas nenhum resolve a \textbf{conexão comercial direta} entre produtores de forma simples, acessível e centrada no WhatsApp.
+
+\begin{itemize}
+    \item O Theo é um chatbot, mas não é marketplace.  
+    \item O Agrofy é marketplace, mas não é chatbot nem funciona via WhatsApp.  
+    \item O Agritek Bot usa WhatsApp, mas não conecta produtores entre si.  
+    \item O WhatsWave Agro automatiza rotinas, mas não realiza intermediação comercial.  
+\end{itemize}
+
+Os artefatos coletados com agricultores reforçam que há demanda por uma ferramenta:
+
+\begin{itemize}
+    \item simples e direta;  
+    \item baseada no WhatsApp;  
+    \item sem necessidade de instalar novos aplicativos;  
+    \item regionalizada;  
+    \item que facilite a compra e venda rápida.  
+\end{itemize}
+
+Estas necessidades, confirmadas nas Seções 8 e 9, não são atendidas por nenhuma solução existente.
+
+\subsection{Diferencial e Originalidade do AgroBot}
+
+O estudo dos trabalhos relacionados demonstra que o AgroBot ocupa uma lacuna importante no setor. A solução une elementos que nunca foram combinados em um único sistema:
+
+\begin{itemize}
+    \item chatbot totalmente conversacional;  
+    \item integrado ao WhatsApp;  
+    \item voltado para compra e venda regional;  
+    \item sem intermediários;  
+    \item focado em pequenos produtores;  
+    \item com menus personalizados e fluxo simplificado.  
+\end{itemize}
+
+Essa combinação torna o AgroBot uma proposta inédita e exatamente alinhada com as necessidades e limitações observadas na comunidade agrícola.
+
 
 
 \section{Requisitos Funcionais}
@@ -160,7 +210,7 @@ A análise dos sistemas estudados mostra que, embora existam diversas soluções
   \item \textbf{RF05 – Contato entre comprador e vendedor:} exibe o número do anunciante ou inicia mensagem automática.
   \item \textbf{RF06 – Gerenciar anúncios:} comandos para editar, renovar ou excluir.
   \item \textbf{RF07 – Notificações proativas:} envio de mensagens com novas ofertas regionais.
-  \item \textbf{RF08 – Relatórios básicos (admin):} painel de estatísticas e categorias mais populares.
+
 \end{itemize}
 
 
@@ -173,6 +223,126 @@ A análise dos sistemas estudados mostra que, embora existam diversas soluções
   \item \textbf{RNF05 – Disponibilidade e manutenção:} arquitetura leve e de fácil manutenção.
   \item \textbf{RNF06 – Disponibilidade:} Código aberto e acessível no GitHub
 \end{itemize}
+
+
+\section{Artefatos de Pesquisa e Informações Coletadas na Comunidade}
+
+Durante o desenvolvimento das etapas 1 e 2, foram coletadas informações junto a agricultores, usuários potenciais e membros da comunidade, com o objetivo de compreender a realidade do público-alvo e validar as funcionalidades propostas para o AgroBot. Os dados foram reunidos por meio de conversas informais, mensagens de WhatsApp, anotações de campo e observações sobre o comportamento dos usuários em relação a anúncios agrícolas.
+
+As principais descobertas desta etapa incluem:
+
+\begin{itemize}
+    \item Preferência pelo uso do WhatsApp como canal único de comunicação, reforçando a necessidade de evitar a criação de um aplicativo novo.
+    \item Dificuldade de pequenos agricultores em encontrar compradores para sementes, insumos e pequenos lotes de maquinário.
+    \item Falta de centralização de anúncios agrícolas, fazendo com que agricultores dependam de grupos informais, onde informações se perdem rapidamente.
+    \item Interesse em uma solução simples, sem telas complexas ou cadastros extensos.
+    \item Importância de evitar intermediários, pois os agricultores preferem negociar diretamente com compradores.
+    \item Demanda por anúncios organizados por categorias e região, facilitando a busca por produtos agrícolas.
+\end{itemize}
+
+Além disso, foram coletados prints, e-mails, conversas e demais evidências, que estão armazenados e organizados em um repositório público no GitHub.
+
+\begin{center}
+\textbf{Link do repositório com os artefatos:} \\
+\url{https://github.com/larentispedro/trabalhoPratique}
+\end{center}
+
+Esses materiais embasaram a definição dos requisitos funcionais e não funcionais, assim como aprimoraram a compreensão do problema real enfrentado pela comunidade agrícola. As informações coletadas reforçam que o AgroBot atende a uma demanda concreta e recorrente entre agricultores, consolidando sua importância como solução acessível e alinhada ao cotidiano rural.
+
+\section{Análise e Discussão dos Artefatos Coletados}
+
+Além da coleta de evidências via conversas e observações diretas, foram aplicados dois formulários que totalizaram 30 respostas. Também foram reunidos prints de plataformas concorrentes (Agrofy e Agritek) e entrevistas com agricultores, todos disponíveis no repositório GitHub do projeto.
+
+\subsection{Análise dos Dados Coletados nos Formulários}
+
+Os formulários revelaram informações essenciais sobre o comportamento, preferências e dificuldades enfrentadas pelos agricultores. Os dados estão representados graficamente no documento ``Gráficos do formulário coletado'' disponível no GitHub.
+
+Os principais resultados são:
+
+\begin{itemize}
+    \item \textbf{Uso do WhatsApp}: 100\% dos participantes utilizam o WhatsApp diariamente. Isso confirma que a escolha da plataforma é adequada para o público-alvo.
+    \item \textbf{Interesse em anúncios agrícolas}: 87,5\% afirmaram que gostariam de receber ofertas de maquinário agrícola e insumos diretamente no WhatsApp.
+    \item \textbf{Comparação de preços}: 71,4\% utilizariam uma plataforma que mostrasse preços de diferentes fornecedores.
+    \item \textbf{Alta prioridade para consulta de insumos}: 78,6\% consideram essa funcionalidade a mais urgente.
+    \item \textbf{Problemas reais no plantio}: 53,8\% já enfrentaram atrasos devido a dificuldades na compra de insumos, sementes ou arrendamento de terras.
+\end{itemize}
+
+Esses dados reforçam que o AgroBot deve priorizar funcionalidades relacionadas à listagem de insumos, preços, anúncios regionais e simplicidade no acesso.
+
+\subsection{Síntese das Entrevistas com Agricultores}
+
+As entrevistas realizadas via WhatsApp forneceram insights qualitativos importantes. Os participantes reforçaram:
+
+\begin{itemize}
+    \item A necessidade de uma solução prática e rápida.
+    \item O desejo de evitar intermediários nos processos de compra e venda.
+    \item A dificuldade em encontrar fornecedores ou compradores confiáveis.
+    \item A validação direta da ideia: agricultores classificaram o projeto como “inovador”, “importante” e “muito útil”.
+    \item Sugestões de uso futuro de IA para personalização de ofertas.
+\end{itemize}
+
+Os relatos confirmam que o sistema deve ser simples, direto e integrado ao WhatsApp, evitando funcionalidades complexas ou cadastros longos.
+
+\subsection{Impacto dos Artefatos nos Requisitos do Sistema}
+
+Com base nos artefatos coletados, foi possível:
+
+\begin{itemize}
+    \item \textbf{Confirmar} requisitos já existentes, como cadastro simples, exibição de anúncios e contato direto com o vendedor.
+    \item \textbf{Justificar} as prioridades do sistema: lista de insumos e ofertas regionais são mais importantes do que funcionalidades avançadas no primeiro momento.
+    \item \textbf{Identificar novas necessidades}, como filtros regionais, categorias específicas e possibilidade de sugestões personalizadas.
+    \item \textbf{Validar o uso exclusivo do WhatsApp}, já que a adoção da plataforma é universal entre os entrevistados.
+\end{itemize}
+
+Dessa forma, os artefatos coletados não apenas validam a proposta do AgroBot, mas também orientam sua evolução, garantindo que o sistema permaneça alinhado às necessidades reais da comunidade rural.
+
+\section{Modelagem do Sistema}
+
+A modelagem do sistema tem como objetivo representar, de forma visual e organizada, o funcionamento do AgroBot a partir dos requisitos levantados nas etapas anteriores. Como o sistema proposto trata-se de um chatbot baseado no WhatsApp, a modelagem utiliza diagramas UML que descrevem as principais interações entre o usuário e o bot, bem como os fluxos internos de execução das funcionalidades.
+
+Conforme orientação do professor, foram desenvolvidos os seguintes diagramas UML: 
+(i) Diagrama de Casos de Uso, 
+(ii) Diagramas de Sequência e 
+(iii) Diagrama de Atividades. 
+Os diagramas de Classes e de Componentes não foram incluídos, visto que foram dispensados na etapa.
+
+\subsection{Diagrama de Casos de Uso}
+
+O Diagrama de Casos de Uso apresenta uma visão geral das funcionalidades oferecidas pelo AgroBot ao usuário. O chatbot possui um único ator principal — o \textbf{Agricultor} — que pode desempenhar tanto o papel de comprador quanto de vendedor. Essa decisão simplifica o modelo e reflete a realidade de uso do sistema, no qual qualquer agricultor pode alternar entre publicar anúncios e buscar ofertas conforme sua necessidade.
+
+Os casos de uso foram derivados diretamente dos requisitos funcionais e dos artefatos coletados com agricultores. Dessa forma, garantimos alinhamento entre as necessidades reais do público-alvo e as funcionalidades representadas na modelagem.
+
+Os principais casos de uso identificados são:
+
+\begin{itemize}
+    \item \textbf{Cadastrar-se}: o agricultor informa seus dados básicos (nome, município e cultura principal) ao iniciar o uso do bot.
+    \item \textbf{Publicar anúncio}: permite criar um anúncio informando categoria, descrição e localização.
+    \item \textbf{Listar anúncios}: exibe os anúncios cadastrados no sistema, com paginação automática.
+    \item \textbf{Filtrar anúncios}: possibilita refinar a busca por categoria ou região.
+    \item \textbf{Visualizar detalhes}: mostra informações completas de um anúncio selecionado.
+    \item \textbf{Contatar vendedor}: abre o WhatsApp do anunciante para negociação direta.
+    \item \textbf{Gerenciar anúncios}: permite editar, renovar ou excluir anúncios publicados.
+    \item \textbf{Receber notificações}: o bot envia alertas com novas ofertas compatíveis com o perfil do agricultor.
+\end{itemize}
+
+Alguns relacionamentos foram adicionados para representar dependências entre funcionalidades:
+
+\begin{itemize}
+    \item O caso de uso \textbf{Visualizar detalhes} está incluído em \textbf{Listar anúncios}, pois só ocorre após o usuário visualizar uma lista de resultados.
+    \item O caso de uso \textbf{Filtrar anúncios} estende \textbf{Listar anúncios}, pois é opcional e complementar.
+    \item O caso de uso \textbf{Gerenciar anúncios} estende \textbf{Publicar anúncio}, uma vez que só é possível gerenciar anúncios previamente criados.
+\end{itemize}
+
+A Figura a seguir apresenta o Diagrama de Casos de Uso do AgroBot.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.85\textwidth]{../diagramas/caso_de_uso.png}
+    \caption{Diagrama de Casos de Uso do AgroBot}
+\end{figure}
+
+
+
 
 \postextual
 \printbibliography[title={Referências}]

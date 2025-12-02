@@ -1,6 +1,6 @@
-PWD c:\Users\palma\Documents\Arquivos faculdade\2_semestre\38389 - Prática Profissional e Inserção Comunitária I\01 - Primeira entrega parcial\trabalhoPratique\ARTIGO TCC _ SIS e ENG
+PWD c:\Users\palma\Documents\Arquivos faculdade\2_semestre\38389 - Prática Profissional e Inserção Comunitária I\Arquivo principal\trabalhoPratique\ARTIGO TCC _ SIS e ENG
 INPUT C:\Users\palma\AppData\Local\MiKTeX\miktex\data\le\pdftex\pdflatex.fmt
-INPUT c:\Users\palma\Documents\Arquivos faculdade\2_semestre\38389 - Prática Profissional e Inserção Comunitária I\01 - Primeira entrega parcial\trabalhoPratique\ARTIGO TCC _ SIS e ENG\agrobot.tex
+INPUT c:\Users\palma\Documents\Arquivos faculdade\2_semestre\38389 - Prática Profissional e Inserção Comunitária I\Arquivo principal\trabalhoPratique\ARTIGO TCC _ SIS e ENG\agrobot.tex
 OUTPUT agrobot.log
 INPUT C:\Users\palma\AppData\Local\Programs\MiKTeX\tex\latex\abntex2\abntex2.cls
 INPUT C:\Users\palma\AppData\Local\Programs\MiKTeX\tex\latex\abntex2\abntex2.cls
@@ -300,6 +300,8 @@ INPUT C:\Users\palma\AppData\Local\Programs\MiKTeX\tex\latex\caption\caption3.st
 INPUT C:\Users\palma\AppData\Local\Programs\MiKTeX\tex\latex\caption\caption-memoir.sto
 INPUT C:\Users\palma\AppData\Local\Programs\MiKTeX\tex\latex\caption\caption-memoir.sto
 INPUT C:\Users\palma\AppData\Local\Programs\MiKTeX\tex\latex\caption\caption-memoir.sto
+INPUT C:\Users\palma\AppData\Local\Programs\MiKTeX\tex\latex\float\float.sty
+INPUT C:\Users\palma\AppData\Local\Programs\MiKTeX\tex\latex\float\float.sty
 OUTPUT agrobot.idx
 INPUT C:\Users\palma\AppData\Local\Programs\MiKTeX\tex\latex\newtx\t1ntxtlf.fd
 INPUT C:\Users\palma\AppData\Local\Programs\MiKTeX\tex\latex\newtx\t1ntxtlf.fd
@@ -463,7 +465,45 @@ INPUT C:\Users\palma\AppData\Local\Programs\MiKTeX\tex\latex\lm\t1lmss.fd
 INPUT C:\Users\palma\AppData\Local\Programs\MiKTeX\fonts\tfm\public\lm\ec-lmss10.tfm
 INPUT C:\Users\palma\AppData\Local\Programs\MiKTeX\fonts\enc\dvips\lm\lm-ec.enc
 INPUT C:\Users\palma\AppData\Local\Programs\MiKTeX\fonts\enc\dvips\tex-gyre\q-ts1.enc
-INPUT C:\Users\palma\AppData\Local\Programs\MiKTeX\fonts\tfm\public\newtx\ntx-Italic-tlf-t1.tfm
+INPUT C:\Users\palma\AppData\Local\Programs\MiKTeX\fonts\tfm\public\newtx\ntx-Regular-tlf-ot1.tfm
+INPUT C:\Users\palma\AppData\Local\Programs\MiKTeX\fonts\tfm\public\newtx\ntx-Regular-tlf-ot1.tfm
+INPUT C:\Users\palma\AppData\Local\Programs\MiKTeX\fonts\tfm\public\newtx\ntx-Regular-tlf-ot1.tfm
+INPUT C:\Users\palma\AppData\Local\Programs\MiKTeX\fonts\tfm\public\newtx\ntxmi.tfm
+INPUT C:\Users\palma\AppData\Local\Programs\MiKTeX\fonts\tfm\public\newtx\ntxmi.tfm
+INPUT C:\Users\palma\AppData\Local\Programs\MiKTeX\fonts\tfm\public\newtx\ntxmi7.tfm
+INPUT C:\Users\palma\AppData\Local\Programs\MiKTeX\fonts\tfm\public\newtx\ntxsy.tfm
+INPUT C:\Users\palma\AppData\Local\Programs\MiKTeX\fonts\tfm\public\newtx\ntxsy.tfm
+INPUT C:\Users\palma\AppData\Local\Programs\MiKTeX\fonts\tfm\public\newtx\ntxsy7.tfm
+INPUT C:\Users\palma\AppData\Local\Programs\MiKTeX\fonts\tfm\public\newtx\ntxexx.tfm
+INPUT C:\Users\palma\AppData\Local\Programs\MiKTeX\fonts\tfm\public\newtx\ntxexx.tfm
+INPUT C:\Users\palma\AppData\Local\Programs\MiKTeX\fonts\tfm\public\newtx\ntxexx.tfm
+INPUT C:\Users\palma\AppData\Local\Programs\MiKTeX\fonts\tfm\public\newtx\ntxmia.tfm
+INPUT C:\Users\palma\AppData\Local\Programs\MiKTeX\fonts\tfm\public\newtx\ntxmia.tfm
+INPUT C:\Users\palma\AppData\Local\Programs\MiKTeX\fonts\tfm\public\newtx\ntxmia.tfm
+INPUT C:\Users\palma\AppData\Local\Programs\MiKTeX\fonts\tfm\public\newtx\ntxsym.tfm
+INPUT C:\Users\palma\AppData\Local\Programs\MiKTeX\fonts\tfm\public\newtx\ntxsym.tfm
+INPUT C:\Users\palma\AppData\Local\Programs\MiKTeX\fonts\tfm\public\newtx\ntxsym.tfm
+INPUT C:\Users\palma\AppData\Local\Programs\MiKTeX\fonts\tfm\public\newtx\ntxsyc.tfm
+INPUT C:\Users\palma\AppData\Local\Programs\MiKTeX\fonts\tfm\public\newtx\ntxsyc.tfm
+INPUT C:\Users\palma\AppData\Local\Programs\MiKTeX\fonts\tfm\public\newtx\ntxsyc.tfm
+INPUT C:\Users\palma\AppData\Local\Programs\MiKTeX\fonts\tfm\public\newtx\ntxexa.tfm
+INPUT C:\Users\palma\AppData\Local\Programs\MiKTeX\fonts\tfm\public\newtx\ntxexa.tfm
+INPUT C:\Users\palma\AppData\Local\Programs\MiKTeX\fonts\tfm\public\newtx\ntxexa.tfm
+INPUT C:\Users\palma\AppData\Local\Programs\MiKTeX\fonts\vf\public\newtx\ntxsy.vf
+INPUT C:\Users\palma\AppData\Local\Programs\MiKTeX\fonts\tfm\public\newtx\txsys.tfm
+INPUT C:\Users\palma\AppData\Local\Programs\MiKTeX\fonts\tfm\public\newtx\txex-bar.tfm
+INPUT C:\Users\palma\AppData\Local\Programs\MiKTeX\tex\latex\lm\t1lmtt.fd
+INPUT C:\Users\palma\AppData\Local\Programs\MiKTeX\tex\latex\lm\t1lmtt.fd
+INPUT C:\Users\palma\AppData\Local\Programs\MiKTeX\tex\latex\lm\t1lmtt.fd
+INPUT C:\Users\palma\AppData\Local\Programs\MiKTeX\fonts\tfm\public\lm\ec-lmtt12.tfm
+INPUT ..\diagramas\caso_de_uso.png
+INPUT ..\diagramas\caso_de_uso.png
+INPUT ..\diagramas\caso_de_uso.png
+INPUT ..\diagramas\caso_de_uso.png
+INPUT ..\diagramas\caso_de_uso.png
+INPUT ..\diagramas\caso_de_uso.png
+INPUT ..\diagramas\caso_de_uso.png
+INPUT C:\Users\palma\AppData\Local\Programs\MiKTeX\fonts\tfm\public\newtx\ntx-Bold-tlf-t1.tfm
 INPUT agrobot.aux
 INPUT agrobot.run.xml
 OUTPUT agrobot.run.xml
@@ -471,11 +511,13 @@ INPUT C:\Users\palma\AppData\Local\Programs\MiKTeX\fonts\type1\public\fontawesom
 INPUT C:\Users\palma\AppData\Local\Programs\MiKTeX\fonts\type1\public\fontawesome\FontAwesome.pfb
 INPUT C:\Users\palma\AppData\Local\Programs\MiKTeX\fonts\type1\public\lm\lmss10.pfb
 INPUT C:\Users\palma\AppData\Local\Programs\MiKTeX\fonts\type1\public\lm\lmss10.pfb
+INPUT C:\Users\palma\AppData\Local\Programs\MiKTeX\fonts\type1\public\lm\lmtt12.pfb
+INPUT C:\Users\palma\AppData\Local\Programs\MiKTeX\fonts\type1\public\lm\lmtt12.pfb
 INPUT C:\Users\palma\AppData\Local\Programs\MiKTeX\fonts\type1\public\tex-gyre\qtmr.pfb
 INPUT C:\Users\palma\AppData\Local\Programs\MiKTeX\fonts\type1\public\tex-gyre\qtmr.pfb
+INPUT C:\Users\palma\AppData\Local\Programs\MiKTeX\fonts\type1\public\newtx\txsys.pfb
+INPUT C:\Users\palma\AppData\Local\Programs\MiKTeX\fonts\type1\public\newtx\txsys.pfb
 INPUT C:\Users\palma\AppData\Local\Programs\MiKTeX\fonts\type1\public\newtx\ztmb.pfb
 INPUT C:\Users\palma\AppData\Local\Programs\MiKTeX\fonts\type1\public\newtx\ztmb.pfb
 INPUT C:\Users\palma\AppData\Local\Programs\MiKTeX\fonts\type1\public\newtx\ztmr.pfb
 INPUT C:\Users\palma\AppData\Local\Programs\MiKTeX\fonts\type1\public\newtx\ztmr.pfb
-INPUT C:\Users\palma\AppData\Local\Programs\MiKTeX\fonts\type1\public\newtx\ztmri.pfb
-INPUT C:\Users\palma\AppData\Local\Programs\MiKTeX\fonts\type1\public\newtx\ztmri.pfb
