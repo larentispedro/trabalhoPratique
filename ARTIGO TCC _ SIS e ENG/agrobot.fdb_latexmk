@@ -1,17 +1,18 @@
 # Fdb version 4
-["biber agrobot"] 1764644442.05748 "agrobot.bcf" "agrobot.bbl" "agrobot" 1764644820.83088 0
-  "agrobot.bcf" 1764644820 114139 2ec814243dd1ac643107167bcb18a6e5 "pdflatex"
+["biber agrobot"] 1764645375.18272 "agrobot.bcf" "agrobot.bbl" "agrobot" 1764645387.18811 0
+  "agrobot.bcf" 1764645386 114396 4867f1ef7ee032c48b0b67903deee7d9 "pdflatex"
+  "referencias.bib" 1762912909 1470 29c7b7c340aded48030092b9caddcbee ""
   (generated)
   "agrobot.bbl"
   "agrobot.blg"
   (rewritten before read)
-["makeindex agrobot.idx"] 1764644628.77173 "agrobot.idx" "agrobot.ind" "agrobot" 1764644820.83027 0
-  "agrobot.idx" 1764644819 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
+["makeindex agrobot.idx"] 1764644628.77173 "agrobot.idx" "agrobot.ind" "agrobot" 1764645387.18699 0
+  "agrobot.idx" 1764645385 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
   (generated)
   "agrobot.ilg"
   "agrobot.ind"
   (rewritten before read)
-["pdflatex"] 1764644817.94481 "c:/Users/palma/Documents/Arquivos faculdade/2_semestre/38389 - Prática Profissional e Inserção Comunitária I/Arquivo principal/trabalhoPratique/ARTIGO TCC _ SIS e ENG/agrobot.tex" "agrobot.pdf" "agrobot" 1764644820.83149 0
+["pdflatex"] 1764645384.17133 "c:/Users/palma/Documents/Arquivos faculdade/2_semestre/38389 - Prática Profissional e Inserção Comunitária I/Arquivo principal/trabalhoPratique/ARTIGO TCC _ SIS e ENG/agrobot.tex" "agrobot.pdf" "agrobot" 1764645387.18925 0
   "../diagramas/caso_de_uso.png" 1764644119 70410 bce39386db4ac335a1e0c45c1ab081d0 ""
   "C:/Users/palma/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1763771418 161945 20771634afb89ae646f1e2e1c712a483 ""
   "C:/Users/palma/AppData/Local/MiKTeX/miktex/data/le/pdftex/pdflatex.fmt" 1758839385 13286966 e3ba85a19a4b672fe5a84bdd4367b2fe ""
@@ -206,12 +207,12 @@
   "C:/Users/palma/AppData/Local/Programs/MiKTeX/tex/latex/xpatch/xpatch.sty" 1585221260 8510 7803f78066c4f9d008405191a4b43073 ""
   "C:/Users/palma/AppData/Local/Programs/MiKTeX/tex/latex/xstring/xstring.sty" 1693735632 123 a302f2c651a95033260db60e51527ae8 ""
   "C:/Users/palma/AppData/Local/Programs/MiKTeX/tex/latex/yafoot/fnpos.sty" 1536067238 3552 ffa6a47ef8edd0d65a39b6fbb4525e81 ""
-  "agrobot.aux" 1764644820 11942 04e657430104b3a824f395be8c554f83 "pdflatex"
-  "agrobot.bbl" 1764644444 486 76d65a242ec496c9b4361af646ff12cb "biber agrobot"
+  "agrobot.aux" 1764645386 13050 8dd58d2155a7d66c46a188afaec28c9a "pdflatex"
+  "agrobot.bbl" 1764645377 6199 30e435e6c5f6f1769913519481fbd2f0 "biber agrobot"
   "agrobot.ind" 1764644628 0 d41d8cd98f00b204e9800998ecf8427e "makeindex agrobot.idx"
-  "agrobot.run.xml" 1764644820 2499 26385a4c32df062c9cf47bf919df0f05 "pdflatex"
-  "agrobot.tex" 1764644816 24555 5e719071e0089e9e8dabbaa2e760e437 ""
-  "c:/Users/palma/Documents/Arquivos faculdade/2_semestre/38389 - Prática Profissional e Inserção Comunitária I/Arquivo principal/trabalhoPratique/ARTIGO TCC _ SIS e ENG/agrobot.tex" 1764644816 24555 5e719071e0089e9e8dabbaa2e760e437 ""
+  "agrobot.run.xml" 1764645386 2499 26385a4c32df062c9cf47bf919df0f05 "pdflatex"
+  "agrobot.tex" 1764645371 24655 fcad3534ef46056f9df4888193cb4edb ""
+  "c:/Users/palma/Documents/Arquivos faculdade/2_semestre/38389 - Prática Profissional e Inserção Comunitária I/Arquivo principal/trabalhoPratique/ARTIGO TCC _ SIS e ENG/agrobot.tex" 1764645371 24655 fcad3534ef46056f9df4888193cb4edb ""
   "unoesc-article.sty" 1762910992 11940 98f73e9997d8ac5d0da4c9c47fc0c8df ""
   (generated)
   "agrobot.aux"
