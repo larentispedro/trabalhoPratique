@@ -504,6 +504,14 @@ INPUT ..\diagramas\caso_de_uso.png
 INPUT ..\diagramas\caso_de_uso.png
 INPUT ..\diagramas\caso_de_uso.png
 INPUT C:\Users\palma\AppData\Local\Programs\MiKTeX\fonts\tfm\public\newtx\ntx-Bold-tlf-t1.tfm
+INPUT C:\Users\palma\AppData\Local\Programs\MiKTeX\fonts\tfm\public\newtx\ntx-Italic-tlf-t1.tfm
+INPUT ..\diagramas\sequencia_publicar_anuncio.png
+INPUT ..\diagramas\sequencia_publicar_anuncio.png
+INPUT ..\diagramas\sequencia_publicar_anuncio.png
+INPUT ..\diagramas\sequencia_publicar_anuncio.png
+INPUT ..\diagramas\sequencia_publicar_anuncio.png
+INPUT ..\diagramas\sequencia_publicar_anuncio.png
+INPUT ..\diagramas\sequencia_publicar_anuncio.png
 INPUT agrobot.aux
 INPUT agrobot.run.xml
 OUTPUT agrobot.run.xml
@@ -521,3 +529,5 @@ INPUT C:\Users\palma\AppData\Local\Programs\MiKTeX\fonts\type1\public\newtx\ztmb
 INPUT C:\Users\palma\AppData\Local\Programs\MiKTeX\fonts\type1\public\newtx\ztmb.pfb
 INPUT C:\Users\palma\AppData\Local\Programs\MiKTeX\fonts\type1\public\newtx\ztmr.pfb
 INPUT C:\Users\palma\AppData\Local\Programs\MiKTeX\fonts\type1\public\newtx\ztmr.pfb
+INPUT C:\Users\palma\AppData\Local\Programs\MiKTeX\fonts\type1\public\newtx\ztmri.pfb
+INPUT C:\Users\palma\AppData\Local\Programs\MiKTeX\fonts\type1\public\newtx\ztmri.pfb
