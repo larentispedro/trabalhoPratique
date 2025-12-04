@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.9.25)  3 DEC 2025 23:54
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.9.25)  4 DEC 2025 20:41
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1714,15 +1714,8 @@ LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
 
 
 {C:/Users/palma/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}{C:/Users/palma/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/newtx/ntx-ec-tlf.enc}{C:/Users/palma/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/fontawesome/fontawesomeone.enc}{C:/Users/palma/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/fontawesome/fontawesometwo.enc}]
-LaTeX Font Info:    Trying to load font information for TS1+ntxtlf on input line 112.
- (C:\Users\palma\AppData\Local\Programs\MiKTeX\tex/latex/newtx\ts1ntxtlf.fd
-File: ts1ntxtlf.fd 2015/01/18 v1.0 fd file for TS1/ntxtlf
-)
-LaTeX Font Info:    Font shape `TS1/ntxtlf/m/n' will be
-(Font)              scaled to size 12.0pt on input line 112.
 
-
-LaTeX Font Info:    Trying to load font information for T1+lmss on input line 114.
+LaTeX Font Info:    Trying to load font information for T1+lmss on input line 109.
 (C:\Users\palma\AppData\Local\Programs\MiKTeX\tex/latex/lm\t1lmss.fd
 File: t1lmss.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
@@ -1730,68 +1723,75 @@ Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             `lmss' (encoding: T1).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
- [2{C:/Users/palma/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-ec.enc}{C:/Users/palma/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/tex-gyre/q-ts1.enc}]
+ [2{C:/Users/palma/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-ec.enc}]
+LaTeX Font Info:    Trying to load font information for TS1+ntxtlf on input line 114.
+ (C:\Users\palma\AppData\Local\Programs\MiKTeX\tex/latex/newtx\ts1ntxtlf.fd
+File: ts1ntxtlf.fd 2015/01/18 v1.0 fd file for TS1/ntxtlf
+)
+LaTeX Font Info:    Font shape `TS1/ntxtlf/m/n' will be
+(Font)              scaled to size 12.0pt on input line 114.
+
 
 
 Class memoir Warning: The material used in the headers is too large
 (14.49998pt) for the given head height (14.22636pt), it is recommended to
 either increase the head height or redesign the header
-(in both cases you will find help in the memoir manual). on input line 138.
+(in both cases you will find help in the memoir manual). on input line 140.
 
 
 Overfull \vbox (0.27362pt too high) has occurred while \output is active []
 
  [3
 
-]
+{C:/Users/palma/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/tex-gyre/q-ts1.enc}]
 LaTeX Font Info:    Font shape `OT1/minntx/m/n' will be
-(Font)              scaled to size 12.0pt on input line 153.
+(Font)              scaled to size 12.0pt on input line 155.
 LaTeX Font Info:    Font shape `OT1/minntx/m/n' will be
-(Font)              scaled to size 8.8pt on input line 153.
+(Font)              scaled to size 8.8pt on input line 155.
 LaTeX Font Info:    Font shape `OT1/minntx/m/n' will be
-(Font)              scaled to size 6.6pt on input line 153.
+(Font)              scaled to size 6.6pt on input line 155.
 LaTeX Font Info:    Font shape `OML/ntxmi/m/it' will be
-(Font)              scaled to size 12.0pt on input line 153.
+(Font)              scaled to size 12.0pt on input line 155.
 LaTeX Font Info:    Font shape `OML/ntxmi/m/it' will be
-(Font)              scaled to size 8.8pt on input line 153.
+(Font)              scaled to size 8.8pt on input line 155.
 LaTeX Font Info:    Font shape `OML/ntxmi/m/it' will be
-(Font)              scaled to size 6.6pt on input line 153.
+(Font)              scaled to size 6.6pt on input line 155.
 LaTeX Font Info:    Font shape `LMS/ntxsy/m/n' will be
-(Font)              scaled to size 12.0pt on input line 153.
+(Font)              scaled to size 12.0pt on input line 155.
 LaTeX Font Info:    Font shape `LMS/ntxsy/m/n' will be
-(Font)              scaled to size 8.8pt on input line 153.
+(Font)              scaled to size 8.8pt on input line 155.
 LaTeX Font Info:    Font shape `LMS/ntxsy/m/n' will be
-(Font)              scaled to size 6.6pt on input line 153.
+(Font)              scaled to size 6.6pt on input line 155.
 LaTeX Font Info:    Font shape `LMX/ntxexx/m/n' will be
-(Font)              scaled to size 12.0pt on input line 153.
+(Font)              scaled to size 12.0pt on input line 155.
 LaTeX Font Info:    Font shape `LMX/ntxexx/m/n' will be
-(Font)              scaled to size 8.8pt on input line 153.
+(Font)              scaled to size 8.8pt on input line 155.
 LaTeX Font Info:    Font shape `LMX/ntxexx/m/n' will be
-(Font)              scaled to size 6.6pt on input line 153.
+(Font)              scaled to size 6.6pt on input line 155.
 LaTeX Font Info:    Font shape `U/ntxmia/m/it' will be
-(Font)              scaled to size 12.0pt on input line 153.
+(Font)              scaled to size 12.0pt on input line 155.
 LaTeX Font Info:    Font shape `U/ntxmia/m/it' will be
-(Font)              scaled to size 8.8pt on input line 153.
+(Font)              scaled to size 8.8pt on input line 155.
 LaTeX Font Info:    Font shape `U/ntxmia/m/it' will be
-(Font)              scaled to size 6.6pt on input line 153.
+(Font)              scaled to size 6.6pt on input line 155.
 LaTeX Font Info:    Font shape `U/ntxsym/m/n' will be
-(Font)              scaled to size 12.0pt on input line 153.
+(Font)              scaled to size 12.0pt on input line 155.
 LaTeX Font Info:    Font shape `U/ntxsym/m/n' will be
-(Font)              scaled to size 8.8pt on input line 153.
+(Font)              scaled to size 8.8pt on input line 155.
 LaTeX Font Info:    Font shape `U/ntxsym/m/n' will be
-(Font)              scaled to size 6.6pt on input line 153.
+(Font)              scaled to size 6.6pt on input line 155.
 LaTeX Font Info:    Font shape `U/ntxsyc/m/n' will be
-(Font)              scaled to size 12.0pt on input line 153.
+(Font)              scaled to size 12.0pt on input line 155.
 LaTeX Font Info:    Font shape `U/ntxsyc/m/n' will be
-(Font)              scaled to size 8.8pt on input line 153.
+(Font)              scaled to size 8.8pt on input line 155.
 LaTeX Font Info:    Font shape `U/ntxsyc/m/n' will be
-(Font)              scaled to size 6.6pt on input line 153.
+(Font)              scaled to size 6.6pt on input line 155.
 LaTeX Font Info:    Font shape `U/ntxexa/m/n' will be
-(Font)              scaled to size 12.0pt on input line 153.
+(Font)              scaled to size 12.0pt on input line 155.
 LaTeX Font Info:    Font shape `U/ntxexa/m/n' will be
-(Font)              scaled to size 8.8pt on input line 153.
+(Font)              scaled to size 8.8pt on input line 155.
 LaTeX Font Info:    Font shape `U/ntxexa/m/n' will be
-(Font)              scaled to size 6.6pt on input line 153.
+(Font)              scaled to size 6.6pt on input line 155.
 
 
 
@@ -1808,7 +1808,7 @@ Overfull \vbox (0.27362pt too high) has occurred while \output is active []
 Overfull \vbox (0.27362pt too high) has occurred while \output is active []
 
  [6]
-LaTeX Font Info:    Trying to load font information for T1+lmtt on input line 249.
+LaTeX Font Info:    Trying to load font information for T1+lmtt on input line 253.
  (C:\Users\palma\AppData\Local\Programs\MiKTeX\tex/latex/lm\t1lmtt.fd
 File: t1lmtt.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
@@ -1835,32 +1835,31 @@ Overfull \vbox (0.27362pt too high) has occurred while \output is active []
 <../diagramas/caso_de_uso.png, id=96, 954.56625pt x 738.50906pt>
 File: ../diagramas/caso_de_uso.png Graphic file (type png)
 <use ../diagramas/caso_de_uso.png>
-Package pdftex.def Info: ../diagramas/caso_de_uso.png  used on input line 342.
+Package pdftex.def Info: ../diagramas/caso_de_uso.png  used on input line 344.
 (pdftex.def)             Requested size: 411.14528pt x 318.08234pt.
 LaTeX Font Info:    Font shape `T1/ntxtlf/b/n' will be
-(Font)              scaled to size 10.0pt on input line 343.
-LaTeX Font Info:    Font shape `T1/ntxtlf/m/it' will be
-(Font)              scaled to size 12.0pt on input line 348.
-<../diagramas/sequencia_publicar_anuncio.png, id=98, 867.99281pt x 624.08156pt>
-File: ../diagramas/sequencia_publicar_anuncio.png Graphic file (type png)
-<use ../diagramas/sequencia_publicar_anuncio.png>
-Package pdftex.def Info: ../diagramas/sequencia_publicar_anuncio.png  used on input line 359.
-(pdftex.def)             Requested size: 411.14528pt x 295.61334pt.
+(Font)              scaled to size 10.0pt on input line 345.
 
 
 
 Overfull \vbox (0.27362pt too high) has occurred while \output is active []
 
  [10 <../diagramas/caso_de_uso.png>]
+<../diagramas/sequencia_publicar_anuncio.png, id=105, 867.99281pt x 624.08156pt>
+File: ../diagramas/sequencia_publicar_anuncio.png Graphic file (type png)
+<use ../diagramas/sequencia_publicar_anuncio.png>
+Package pdftex.def Info: ../diagramas/sequencia_publicar_anuncio.png  used on input line 361.
+(pdftex.def)             Requested size: 411.14528pt x 295.61334pt.
+
 
 
 Overfull \vbox (0.27362pt too high) has occurred while \output is active []
 
  [11 <../diagramas/sequencia_publicar_anuncio.png>]
-<../diagramas/sequencia_listar_anuncio.png, id=114, 700.11563pt x 807.015pt>
+<../diagramas/sequencia_listar_anuncio.png, id=113, 700.11563pt x 807.015pt>
 File: ../diagramas/sequencia_listar_anuncio.png Graphic file (type png)
 <use ../diagramas/sequencia_listar_anuncio.png>
-Package pdftex.def Info: ../diagramas/sequencia_listar_anuncio.png  used on input line 387.
+Package pdftex.def Info: ../diagramas/sequencia_listar_anuncio.png  used on input line 389.
 (pdftex.def)             Requested size: 411.14528pt x 473.93051pt.
 
 
@@ -1868,10 +1867,10 @@ Package pdftex.def Info: ../diagramas/sequencia_listar_anuncio.png  used on inpu
 Overfull \vbox (0.27362pt too high) has occurred while \output is active []
 
  [12 <../diagramas/sequencia_listar_anuncio.png>]
-<../diagramas/atividade_publicar_anuncio.png, id=122, 912.40875pt x 977.15062pt>
+<../diagramas/atividade_publicar_anuncio.png, id=121, 912.40875pt x 977.15062pt>
 File: ../diagramas/atividade_publicar_anuncio.png Graphic file (type png)
 <use ../diagramas/atividade_publicar_anuncio.png>
-Package pdftex.def Info: ../diagramas/atividade_publicar_anuncio.png  used on input line 405.
+Package pdftex.def Info: ../diagramas/atividade_publicar_anuncio.png  used on input line 407.
 (pdftex.def)             Requested size: 435.32422pt x 466.20897pt.
 
 
@@ -1883,7 +1882,7 @@ Overfull \vbox (0.27362pt too high) has occurred while \output is active []
 Class memoir Warning: The material used in the headers is too large
 (14.49998pt) for the given head height (14.22636pt), it is recommended to
 either increase the head height or redesign the header
-(in both cases you will find help in the memoir manual). on input line 417.
+(in both cases you will find help in the memoir manual). on input line 419.
 
 
 
@@ -1900,11 +1899,11 @@ Package logreq Info: Writing requests to 'agrobot.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 37357 strings out of 468130
- 644109 string characters out of 5430633
+ 37323 strings out of 468130
+ 643464 string characters out of 5430633
  1664752 words of memory out of 5000000
- 65274 multiletter control sequences out of 15000+600000
- 707751 words of font info for 216 fonts, out of 8000000 for 9000
+ 65271 multiletter control sequences out of 15000+600000
+ 703315 words of font info for 200 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  99i,12n,117p,1373b,4447s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
@@ -1919,10 +1918,10 @@ pdfTeX warning (dest): name{Hfootnote.2} has been referenced but does not exist,
 
 pdfTeX warning (dest): name{Hfootnote.1} has been referenced but does not exist, replaced by a fixed one
 
-<C:/Users/palma/AppData/Local/Programs/MiKTeX/fonts/type1/public/fontawesome/FontAwesome.pfb><C:/Users/palma/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmss10.pfb><C:/Users/palma/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmtt12.pfb><C:/Users/palma/AppData/Local/Programs/MiKTeX/fonts/type1/public/tex-gyre/qtmr.pfb><C:/Users/palma/AppData/Local/Programs/MiKTeX/fonts/type1/public/newtx/txsys.pfb><C:/Users/palma/AppData/Local/Programs/MiKTeX/fonts/type1/public/newtx/ztmb.pfb><C:/Users/palma/AppData/Local/Programs/MiKTeX/fonts/type1/public/newtx/ztmr.pfb><C:/Users/palma/AppData/Local/Programs/MiKTeX/fonts/type1/public/newtx/ztmri.pfb>
-Output written on agrobot.pdf (14 pages, 430653 bytes).
+<C:/Users/palma/AppData/Local/Programs/MiKTeX/fonts/type1/public/fontawesome/FontAwesome.pfb><C:/Users/palma/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmss10.pfb><C:/Users/palma/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmtt12.pfb><C:/Users/palma/AppData/Local/Programs/MiKTeX/fonts/type1/public/tex-gyre/qtmr.pfb><C:/Users/palma/AppData/Local/Programs/MiKTeX/fonts/type1/public/newtx/txsys.pfb><C:/Users/palma/AppData/Local/Programs/MiKTeX/fonts/type1/public/newtx/ztmb.pfb><C:/Users/palma/AppData/Local/Programs/MiKTeX/fonts/type1/public/newtx/ztmr.pfb>
+Output written on agrobot.pdf (14 pages, 404139 bytes).
 PDF statistics:
- 272 PDF objects out of 1000 (max. 8388607)
+ 267 PDF objects out of 1000 (max. 8388607)
  55 named destinations out of 1000 (max. 500000)
- 31965 words of extra memory for PDF output out of 35830 (max. 10000000)
+ 29917 words of extra memory for PDF output out of 35830 (max. 10000000)
 

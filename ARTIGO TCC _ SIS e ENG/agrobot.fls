@@ -455,15 +455,15 @@ INPUT C:\Users\palma\AppData\Local\MiKTeX\fonts\map\pdftex\pdftex.map
 INPUT C:\Users\palma\AppData\Local\Programs\MiKTeX\fonts\enc\dvips\newtx\ntx-ec-tlf.enc
 INPUT C:\Users\palma\AppData\Local\Programs\MiKTeX\fonts\enc\dvips\fontawesome\fontawesomeone.enc
 INPUT C:\Users\palma\AppData\Local\Programs\MiKTeX\fonts\enc\dvips\fontawesome\fontawesometwo.enc
-INPUT C:\Users\palma\AppData\Local\Programs\MiKTeX\tex\latex\newtx\ts1ntxtlf.fd
-INPUT C:\Users\palma\AppData\Local\Programs\MiKTeX\tex\latex\newtx\ts1ntxtlf.fd
-INPUT C:\Users\palma\AppData\Local\Programs\MiKTeX\tex\latex\newtx\ts1ntxtlf.fd
-INPUT C:\Users\palma\AppData\Local\Programs\MiKTeX\fonts\tfm\public\tex-gyre\ts1-qtmr.tfm
 INPUT C:\Users\palma\AppData\Local\Programs\MiKTeX\tex\latex\lm\t1lmss.fd
 INPUT C:\Users\palma\AppData\Local\Programs\MiKTeX\tex\latex\lm\t1lmss.fd
 INPUT C:\Users\palma\AppData\Local\Programs\MiKTeX\tex\latex\lm\t1lmss.fd
 INPUT C:\Users\palma\AppData\Local\Programs\MiKTeX\fonts\tfm\public\lm\ec-lmss10.tfm
 INPUT C:\Users\palma\AppData\Local\Programs\MiKTeX\fonts\enc\dvips\lm\lm-ec.enc
+INPUT C:\Users\palma\AppData\Local\Programs\MiKTeX\tex\latex\newtx\ts1ntxtlf.fd
+INPUT C:\Users\palma\AppData\Local\Programs\MiKTeX\tex\latex\newtx\ts1ntxtlf.fd
+INPUT C:\Users\palma\AppData\Local\Programs\MiKTeX\tex\latex\newtx\ts1ntxtlf.fd
+INPUT C:\Users\palma\AppData\Local\Programs\MiKTeX\fonts\tfm\public\tex-gyre\ts1-qtmr.tfm
 INPUT C:\Users\palma\AppData\Local\Programs\MiKTeX\fonts\enc\dvips\tex-gyre\q-ts1.enc
 INPUT C:\Users\palma\AppData\Local\Programs\MiKTeX\fonts\tfm\public\newtx\ntx-Regular-tlf-ot1.tfm
 INPUT C:\Users\palma\AppData\Local\Programs\MiKTeX\fonts\tfm\public\newtx\ntx-Regular-tlf-ot1.tfm
@@ -504,7 +504,6 @@ INPUT ..\diagramas\caso_de_uso.png
 INPUT ..\diagramas\caso_de_uso.png
 INPUT ..\diagramas\caso_de_uso.png
 INPUT C:\Users\palma\AppData\Local\Programs\MiKTeX\fonts\tfm\public\newtx\ntx-Bold-tlf-t1.tfm
-INPUT C:\Users\palma\AppData\Local\Programs\MiKTeX\fonts\tfm\public\newtx\ntx-Italic-tlf-t1.tfm
 INPUT ..\diagramas\sequencia_publicar_anuncio.png
 INPUT ..\diagramas\sequencia_publicar_anuncio.png
 INPUT ..\diagramas\sequencia_publicar_anuncio.png
@@ -543,5 +542,3 @@ INPUT C:\Users\palma\AppData\Local\Programs\MiKTeX\fonts\type1\public\newtx\ztmb
 INPUT C:\Users\palma\AppData\Local\Programs\MiKTeX\fonts\type1\public\newtx\ztmb.pfb
 INPUT C:\Users\palma\AppData\Local\Programs\MiKTeX\fonts\type1\public\newtx\ztmr.pfb
 INPUT C:\Users\palma\AppData\Local\Programs\MiKTeX\fonts\type1\public\newtx\ztmr.pfb
-INPUT C:\Users\palma\AppData\Local\Programs\MiKTeX\fonts\type1\public\newtx\ztmri.pfb
-INPUT C:\Users\palma\AppData\Local\Programs\MiKTeX\fonts\type1\public\newtx\ztmri.pfb

@@ -145,39 +145,6 @@
       \verb https://marcaspelomundo.com.br/anunciantes/nestle-apresenta-o-theo-assistente-virtual-da-marca-para-ajudar-agricultores-nas-fazendas-de-cacau/
       \endverb
     \endentry
-    \entry{nestle_theo_folha}{online}{}{}
-      \name{author}{1}{}{%
-        {{un=0,uniquepart=base,hash=44e0a7de16af12bd89114528a74dfe5b}{%
-           family={Vitória},
-           familyi={V\bibinitperiod},
-           given={Folha},
-           giveni={F\bibinitperiod},
-           givenun=0}}%
-      }
-      \strng{namehash}{44e0a7de16af12bd89114528a74dfe5b}
-      \strng{fullhash}{44e0a7de16af12bd89114528a74dfe5b}
-      \strng{fullhashraw}{44e0a7de16af12bd89114528a74dfe5b}
-      \strng{bibnamehash}{44e0a7de16af12bd89114528a74dfe5b}
-      \strng{authorbibnamehash}{44e0a7de16af12bd89114528a74dfe5b}
-      \strng{authornamehash}{44e0a7de16af12bd89114528a74dfe5b}
-      \strng{authorfullhash}{44e0a7de16af12bd89114528a74dfe5b}
-      \strng{authorfullhashraw}{44e0a7de16af12bd89114528a74dfe5b}
-      \field{sortinit}{V}
-      \field{sortinithash}{afb52128e5b4dc4b843768c0113d673b}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{note}{Acesso em: 2 nov. 2025.}
-      \field{title}{Theo: nova tecnologia da Nestlé dará suporte a produtores de cacau}
-      \field{year}{2023}
-      \verb{urlraw}
-      \verb https://www.folhavitoria.com.br/folha-business/theo-nova-tecnologia-da-nestle-dara-suporte-a-produtores-de-cacau/
-      \endverb
-      \verb{url}
-      \verb https://www.folhavitoria.com.br/folha-business/theo-nova-tecnologia-da-nestle-dara-suporte-a-produtores-de-cacau/
-      \endverb
-    \endentry
   \enddatalist
 \endrefsection
 \endinput
