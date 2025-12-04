@@ -360,6 +360,53 @@ A Figura a seguir ilustra graficamente essa interação.
     \caption{Diagrama de sequência - Publicar anúncio}
 \end{figure}
 
+\subsection{Diagrama de Sequência – Listar e Filtrar Anúncios}
+
+O Diagrama de Sequência a seguir representa o fluxo de interação da funcionalidade
+\textit{Listar e Filtrar Anúncios}, que corresponde a um dos processos mais utilizados pelos
+agricultores dentro do AgroBot. Essa funcionalidade permite que o usuário visualize as ofertas
+disponíveis no sistema e, opcionalmente, refine sua busca utilizando filtros como categoria ou
+localização.
+
+O fluxo inicia quando o usuário solicita a listagem de anúncios. Em seguida, o AgroBot pergunta
+se o usuário deseja aplicar algum tipo de filtro. Caso a resposta seja afirmativa, o bot solicita as
+informações necessárias e, após recebê-las, realiza uma consulta filtrada no banco de dados. Se o
+usuário optar por não utilizar filtros, o sistema prossegue com uma consulta básica utilizando
+parâmetros vazios.
+
+\newpage
+
+Após a consulta, o banco de dados retorna a lista de anúncios correspondente. A exibição dos
+resultados ocorre de forma paginada, permitindo que o usuário solicite novas páginas enquanto
+houver anúncios disponíveis. Ao finalizar a navegação, o sistema encerra o fluxo de listagem.
+
+A Figura a seguir apresenta o Diagrama de Sequência dessa interação.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.85\textwidth]{../diagramas/sequencia_listar_anuncio.png}
+    \caption{Diagrama de Sequência – Listar e Filtrar Anúncios}
+\end{figure}
+
+\subsection{Diagrama de Atividades – Publicar Anúncio}
+
+O Diagrama de Atividades referente ao caso de uso \textit{Publicar Anúncio} descreve o fluxo operacional da criação de um novo anúncio dentro do AgroBot. Esse diagrama representa, de forma estruturada, as ações realizadas pelo usuário, as respostas automáticas do bot e o processamento interno do sistema, evidenciando a colaboração entre as diferentes partes envolvidas no processo.
+
+O fluxo inicia na raia do \textbf{Usuário}, que seleciona a opção de publicar um anúncio. A partir desse ponto, o controle é alternado entre o usuário e o \textbf{AgroBot}, que conduz a interação de maneira sequencial e guiada. O bot solicita primeiro a categoria do anúncio, seguida da descrição e da localização. Cada solicitação é respondida pelo usuário, caracterizando um fluxo linear e fácil de seguir — algo especialmente importante para agricultores com pouca familiaridade tecnológica.
+
+Após coletar todas as informações necessárias, o AgroBot transfere o processamento para a raia do \textbf{Banco de Dados}, enviando os dados coletados para que o anúncio seja registrado. A base de dados cria a nova entrada e retorna uma confirmação ao bot.
+
+Por fim, o AgroBot envia uma mensagem de sucesso ao usuário, contendo a confirmação do cadastro do anúncio. O fluxo é encerrado somente após a entrega dessa mensagem, garantindo clareza e finalização adequada da atividade.
+
+Esse diagrama reforça a simplicidade e objetividade da experiência de uso, refletindo diretamente as necessidades identificadas nos artefatos coletados: interação rápida, comunicação clara e ausência de complexidade desnecessária. A Figura a seguir ilustra o fluxo completo descrito.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.90\textwidth]{../diagramas/atividade_publicar_anuncio.png}
+    \caption{Diagrama de Atividades – Publicar Anúncio}
+\end{figure}
+
+
 
 
 

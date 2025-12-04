@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.9.25)  2 DEC 2025 23:00
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.9.25)  3 DEC 2025 23:54
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1853,17 +1853,44 @@ Overfull \vbox (0.27362pt too high) has occurred while \output is active []
 
  [10 <../diagramas/caso_de_uso.png>]
 
+
+Overfull \vbox (0.27362pt too high) has occurred while \output is active []
+
+ [11 <../diagramas/sequencia_publicar_anuncio.png>]
+<../diagramas/sequencia_listar_anuncio.png, id=114, 700.11563pt x 807.015pt>
+File: ../diagramas/sequencia_listar_anuncio.png Graphic file (type png)
+<use ../diagramas/sequencia_listar_anuncio.png>
+Package pdftex.def Info: ../diagramas/sequencia_listar_anuncio.png  used on input line 387.
+(pdftex.def)             Requested size: 411.14528pt x 473.93051pt.
+
+
+
+Overfull \vbox (0.27362pt too high) has occurred while \output is active []
+
+ [12 <../diagramas/sequencia_listar_anuncio.png>]
+<../diagramas/atividade_publicar_anuncio.png, id=122, 912.40875pt x 977.15062pt>
+File: ../diagramas/atividade_publicar_anuncio.png Graphic file (type png)
+<use ../diagramas/atividade_publicar_anuncio.png>
+Package pdftex.def Info: ../diagramas/atividade_publicar_anuncio.png  used on input line 405.
+(pdftex.def)             Requested size: 435.32422pt x 466.20897pt.
+
+
+
+Overfull \vbox (0.27362pt too high) has occurred while \output is active []
+
+ [13 <../diagramas/atividade_publicar_anuncio.png>]
+
 Class memoir Warning: The material used in the headers is too large
 (14.49998pt) for the given head height (14.22636pt), it is recommended to
 either increase the head height or redesign the header
-(in both cases you will find help in the memoir manual). on input line 370.
+(in both cases you will find help in the memoir manual). on input line 417.
 
 
 
 
 Overfull \vbox (0.27362pt too high) has occurred while \output is active []
 
- [11 <../diagramas/sequencia_publicar_anuncio.png>] (agrobot.aux)
+ [14] (agrobot.aux)
  ***********
 LaTeX2e <2025-06-01> patch level 1
 L3 programming layer <2020/03/25>
@@ -1873,11 +1900,11 @@ Package logreq Info: Writing requests to 'agrobot.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 37326 strings out of 468130
- 643172 string characters out of 5430633
+ 37357 strings out of 468130
+ 644109 string characters out of 5430633
  1664752 words of memory out of 5000000
- 65258 multiletter control sequences out of 15000+600000
- 707298 words of font info for 212 fonts, out of 8000000 for 9000
+ 65274 multiletter control sequences out of 15000+600000
+ 707751 words of font info for 216 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  99i,12n,117p,1373b,4447s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
@@ -1893,9 +1920,9 @@ pdfTeX warning (dest): name{Hfootnote.2} has been referenced but does not exist,
 pdfTeX warning (dest): name{Hfootnote.1} has been referenced but does not exist, replaced by a fixed one
 
 <C:/Users/palma/AppData/Local/Programs/MiKTeX/fonts/type1/public/fontawesome/FontAwesome.pfb><C:/Users/palma/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmss10.pfb><C:/Users/palma/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmtt12.pfb><C:/Users/palma/AppData/Local/Programs/MiKTeX/fonts/type1/public/tex-gyre/qtmr.pfb><C:/Users/palma/AppData/Local/Programs/MiKTeX/fonts/type1/public/newtx/txsys.pfb><C:/Users/palma/AppData/Local/Programs/MiKTeX/fonts/type1/public/newtx/ztmb.pfb><C:/Users/palma/AppData/Local/Programs/MiKTeX/fonts/type1/public/newtx/ztmr.pfb><C:/Users/palma/AppData/Local/Programs/MiKTeX/fonts/type1/public/newtx/ztmri.pfb>
-Output written on agrobot.pdf (11 pages, 322528 bytes).
+Output written on agrobot.pdf (14 pages, 430653 bytes).
 PDF statistics:
- 243 PDF objects out of 1000 (max. 8388607)
- 48 named destinations out of 1000 (max. 500000)
- 31939 words of extra memory for PDF output out of 35830 (max. 10000000)
+ 272 PDF objects out of 1000 (max. 8388607)
+ 55 named destinations out of 1000 (max. 500000)
+ 31965 words of extra memory for PDF output out of 35830 (max. 10000000)
 
